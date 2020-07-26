@@ -1,789 +1,797 @@
-State,City,City-Pop
- Texas,Abilene,123420
- Ohio,Akron,197597
- California,Alameda,77624
- New York,Albany,96460
- Georgia,Albany,72130
- Oregon,Albany,55338
- New Mexico,Albuquerque,560513
- Virginia,Alexandria,159428
- California,Alhambra,83750
- California,Aliso Viejo,50887
- Texas,Allen,105623
- Pennsylvania,Allentown,121442
- Georgia,Alpharetta,67213
- Texas,Amarillo,199371
- Iowa,Ames,66258
- California,Anaheim,350365
- Alaska,Anchorage,288000
- Indiana,Anderson,54765
- Iowa,Ankeny,67355
- Michigan,Ann Arbor,119980
- California,Antioch,111502
- North Carolina,Apex town,59300
- Florida,Apopka,53447
- Minnesota,Apple Valley,55135
- California,Apple Valley town,73453
- Wisconsin,Appleton,74098
- California,Arcadia,57939
- Texas,Arlington,398854
- Illinois,Arlington Heights village,74760
- Colorado,Arvada,121272
- North Carolina,Asheville,92870
- Georgia,Athens,126913
- Georgia,Atlanta,506811
- Washington,Auburn,81464
- Alabama,Auburn,66259
- Georgia,Augusta,197888
- Colorado,Aurora,379289
- Illinois,Aurora,197757
- Texas,Austin,978908
- Arizona,Avondale,87931
- California,Bakersfield,384145
- California,Baldwin Park,75251
- Maryland,Baltimore,593490
- Tennessee,Bartlett,59440
- Louisiana,Baton Rouge,220236
- Michigan,Battle Creek,51093
- New Jersey,Bayonne,64897
- Texas,Baytown,77192
- Texas,Beaumont,116825
- California,Beaumont,51063
- Oregon,Beaverton,99037
- Washington,Bellevue,148164
- Nebraska,Bellevue,53544
- California,Bellflower,76435
- Washington,Bellingham,92314
- Oregon,Bend,100421
- Arkansas,Bentonville,54909
- California,Berkeley,121363
- Illinois,Berwyn,54391
- Pennsylvania,Bethlehem,75815
- Montana,Billings,109577
- Alabama,Birmingham,209403
- North Dakota,Bismarck,73529
- Minnesota,Blaine,65607
- Indiana,Bloomington,85755
- Minnesota,Bloomington,84943
- Illinois,Bloomington,77330
- Missouri,Blue Springs,55829
- Florida,Boca Raton,99805
- Idaho,Boise,228959
- Illinois,Bolingbrook village,74545
- Florida,Bonita Springs,59637
- Louisiana,Bossier,68159
- Massachusetts,Boston,692600
- Colorado,Boulder,105673
- Maryland,Bowie,58643
- Kentucky,Bowling Green,70543
- Florida,Boynton Beach,78679
- Florida,Bradenton,59439
- California,Brentwood,64474
- Connecticut,Bridgeport,144399
- Connecticut,Bristol,59947
- Massachusetts,Brockton,95708
- Oklahoma,Broken Arrow,110198
- Georgia,Brookhaven,55554
- Minnesota,Brooklyn Park,80389
- Colorado,Broomfield,70465
- Texas,Brownsville,182781
- Texas,Bryan,86276
- Arizona,Buckeye,79620
- California,Buena Park,81788
- New York,Buffalo,255284
- California,Burbank,102511
- Washington,Burien,51500
- North Carolina,Burlington,54606
- Minnesota,Burnsville,61339
- Idaho,Caldwell,58481
- California,Camarillo,69888
- Massachusetts,Cambridge,118927
- New Jersey,Camden,73562
- Ohio,Canton,70447
- Florida,Cape Coral,194495
- California,Carlsbad,115382
- Indiana,Carmel,101068
- Texas,Carrollton,139248
- California,Carson,91394
- Nevada,Carson,55916
- North Carolina,Cary town,170282
- Arizona,Casa Grande,58632
- Wyoming,Casper,57931
- Colorado,Castle Rock town,68484
- California,Cathedral,55007
- Texas,Cedar Park,79462
- Iowa,Cedar Rapids,133562
- Colorado,Centennial,110937
- California,Cerritos,49859
- Illinois,Champaign,88909
- Arizona,Chandler,261165
- North Carolina,Chapel Hill town,64051
- South Carolina,Charleston,137566
- West Virginia,Charleston,46536
- North Carolina,Charlotte,885708
- Tennessee,Chattanooga,182799
- Virginia,Chesapeake,244835
- Wyoming,Cheyenne,64235
- Illinois,Chicago,2693976
- California,Chico,103301
- Massachusetts,Chicopee,55126
- California,Chino,94371
- California,Chino Hills,83853
- California,Chula Vista,274492
- Illinois,Cicero town,80796
- Ohio,Cincinnati,303940
- California,Citrus Heights,87796
- Tennessee,Clarksville,158146
- Florida,Clearwater,116946
- Ohio,Cleveland,381009
- New Jersey,Clifton,85052
- California,Clovis,114584
- Florida,Coconut Creek,61248
- Idaho,Coeur d'Alene,52414
- Texas,College Station,117911
- Tennessee,Collierville town,51040
- Colorado,Colorado Springs,478221
- California,Colton,54824
- South Carolina,Columbia,131674
- Missouri,Columbia,123195
- Ohio,Columbus,898553
- Georgia,Columbus,195769
- Colorado,Commerce,60336
- California,Compton,95605
- California,Concord,129295
- North Carolina,Concord,96341
- Texas,Conroe,91079
- Arkansas,Conway,67638
- Minnesota,Coon Rapids,62998
- Florida,Coral Gables,49700
- Florida,Coral Springs,133759
- California,Corona,169868
- Texas,Corpus Christi,326586
- Oregon,Corvallis,58856
- California,Costa Mesa,113003
- Iowa,Council Bluffs,62166
- Rhode Island,Cranston,81456
- California,Cupertino,59276
- Texas,Dallas,1343573
- California,Daly,106280
- Connecticut,Danbury,84694
- Iowa,Davenport,101590
- Florida,Davie town,106306
- California,Davis,69413
- Ohio,Dayton,140407
- Florida,Daytona Beach,69186
- Michigan,Dearborn,93932
- Michigan,Dearborn Heights,55353
- Illinois,Decatur,70746
- Alabama,Decatur,54445
- Florida,Deerfield Beach,81066
- California,Delano,53573
- Florida,Delray Beach,69451
- Florida,Deltona,92757
- Texas,Denton,141541
- Colorado,Denver,727211
- Iowa,Des Moines,214237
- Illinois,Des Plaines,58899
- Texas,DeSoto,52988
- Michigan,Detroit,670031
- California,Diamond Bar,55720
- Florida,Doral,65741
- Alabama,Dothan,68941
- California,Downey,111126
- California,Dublin,64826
- Iowa,Dubuque,57882
- Minnesota,Duluth,85618
- North Carolina,Durham,278993
- Minnesota,Eagan,66372
- New Jersey,East Orange,64367
- California,Eastvale,64157
- Wisconsin,Eau Claire,68802
- Minnesota,Eden Prairie,64893
- Minnesota,Edina,52857
- Texas,Edinburg,101170
- Oklahoma,Edmond,94054
- California,El Cajon,102708
- California,El Monte,115487
- Texas,El Paso,681728
- Illinois,Elgin,110849
- New Jersey,Elizabeth,129216
- California,Elk Grove,174775
- Indiana,Elkhart,52358
- Ohio,Elyria,53757
- California,Encinitas,62709
- Oklahoma,Enid,49688
- Pennsylvania,Erie,95508
- California,Escondido,151625
- Oregon,Eugene,172622
- Texas,Euless,57197
- Illinois,Evanston,73473
- Indiana,Evansville,117979
- Washington,Everett,111475
- California,Fairfield,117133
- Massachusetts,Fall River,89541
- North Dakota,Fargo,124662
- Michigan,Farmington Hills,80612
- North Carolina,Fayetteville,211657
- Arkansas,Fayetteville,87590
- Washington,Federal Way,96289
- Indiana,Fishers,95310
- Arizona,Flagstaff,75038
- Michigan,Flint,95538
- Missouri,Florissant,50952
- Texas,Flower Mound town,79135
- California,Folsom,81328
- California,Fontana,214547
- Colorado,Fort Collins,170243
- Florida,Fort Lauderdale,182437
- Florida,Fort Myers,87103
- Arkansas,Fort Smith,87891
- Indiana,Fort Wayne,270402
- Texas,Fort Worth,909585
- California,Fountain Valley,55357
- Massachusetts,Framingham,74416
- Tennessee,Franklin,83097
- Maryland,Frederick,72244
- California,Fremont,241110
- California,Fresno,531576
- Texas,Frisco,200490
- California,Fullerton,138632
- Florida,Gainesville,133997
- Maryland,Gaithersburg,67985
- Texas,Galveston,50446
- California,Garden Grove,171644
- California,Gardena,59329
- Texas,Garland,239928
- Indiana,Gary,74879
- North Carolina,Gastonia,77273
- Texas,Georgetown,79604
- Arizona,Gilbert town,254114
- California,Gilroy,59032
- Arizona,Glendale,252381
- California,Glendale,199303
- California,Glendora,51544
- Arizona,Goodyear,86840
- North Dakota,Grand Forks,55839
- Nebraska,Grand Island,51267
- Colorado,Grand Junction,63597
- Texas,Grand Prairie,194543
- Michigan,Grand Rapids,201013
- Texas,Grapevine,55281
- Montana,Great Falls,58434
- Colorado,Greeley,108649
- Wisconsin,Green Bay,104578
- North Carolina,Greensboro,296710
- North Carolina,Greenville,93400
- South Carolina,Greenville,70635
- Indiana,Greenwood,59458
- Oregon,Gresham,109381
- Mississippi,Gulfport,71705
- Ohio,Hamilton,62082
- Indiana,Hammond,75522
- Virginia,Hampton,134510
- California,Hanford,57703
- Texas,Harlingen,65022
- Virginia,Harrisonburg,53016
- Connecticut,Hartford,122105
- Massachusetts,Haverhill,64014
- California,Hawthorne,86068
- California,Hayward,159203
- California,Hemet,85334
- New York,Hempstead village,55113
- Nevada,Henderson,320189
- Tennessee,Hendersonville,58113
- Utah,Herriman,51348
- California,Hesperia,95750
- Florida,Hialeah,233339
- North Carolina,High Point,112791
- California,Highland,55417
- Oregon,Hillsboro,109128
- New Jersey,Hoboken,52677
- Illinois,Hoffman Estates village,50932
- Florida,Hollywood,154817
- Florida,Homestead,69523
- Alabama,Hoover,85768
- Texas,Houston,2320268
- North Carolina,Huntersville town,58098
- California,Huntington Beach,199223
- California,Huntington Park,57509
- Alabama,Huntsville,200574
- Idaho,Idaho Falls,62888
- Missouri,Independence,116672
- Indiana,Indianapolis,876384
- California,Indio,91765
- California,Inglewood,108151
- Iowa,Iowa,75130
- California,Irvine,287401
- Texas,Irving,239798
- Mississippi,Jackson,160628
- Tennessee,Jackson,67191
- Florida,Jacksonville,911507
- North Carolina,Jacksonville,72436
- Wisconsin,Janesville,64575
- New Jersey,Jersey,262075
- Georgia,Johns Creek,84579
- Tennessee,Johnson,66906
- Illinois,Joliet,147344
- Arkansas,Jonesboro,78394
- Missouri,Joplin,50925
- Florida,Jupiter town,65791
- California,Jurupa Valley,109527
- Michigan,Kalamazoo,76200
- North Carolina,Kannapolis,50841
- Missouri,Kansas,495327
- Kansas,Kansas,152960
- Louisiana,Kenner,66340
- Washington,Kennewick,84347
- Wisconsin,Kenosha,99944
- Washington,Kent,132319
- Michigan,Kentwood,51898
- Ohio,Kettering,54855
- Texas,Killeen,151666
- Tennessee,Kingsport,54127
- Washington,Kirkland,93010
- Florida,Kissimmee,72717
- Tennessee,Knoxville,187603
- Indiana,Kokomo,58020
- Wisconsin,La Crosse,51227
- California,La Habra,60513
- California,La Mesa,59249
- Washington,Lacey,52592
- Louisiana,Lafayette,126185
- Indiana,Lafayette,71721
- California,Laguna Niguel,66385
- Louisiana,Lake Charles,78396
- California,Lake Elsinore,69283
- California,Lake Forest,85531
- Arizona,Lake Havasu,55865
- Florida,Lakeland,112136
- Minnesota,Lakeville,67317
- Colorado,Lakewood,157935
- California,Lakewood,79307
- Washington,Lakewood,61037
- Ohio,Lakewood,49678
- California,Lancaster,157601
- Pennsylvania,Lancaster,59265
- Michigan,Lansing,118210
- Texas,Laredo,262491
- Florida,Largo,84948
- New Mexico,Las Cruces,103432
- Nevada,Las Vegas,651319
- Florida,Lauderhill,71868
- Kansas,Lawrence,98193
- Massachusetts,Lawrence,80028
- Oklahoma,Lawton,93025
- Utah,Layton,78014
- Texas,League,107536
- Texas,Leander,62608
- Missouri,Lee's Summit,99357
- Virginia,Leesburg town,53727
- Utah,Lehi,69724
- Kansas,Lenexa,55625
- Texas,Lewisville,109212
- Kentucky,Lexington,323152
- Nebraska,Lincoln,289102
- Texas,Little Elm,53126
- Arkansas,Little Rock,197312
- California,Livermore,90189
- Michigan,Livonia,93665
- California,Lodi,67586
- Utah,Logan,51542
- California,Long Beach,462628
- Colorado,Longmont,97261
- Texas,Longview,81631
- Ohio,Lorain,63855
- California,Los Angeles,3979576
- Kentucky,Louisville,617638
- Colorado,Loveland,78877
- Massachusetts,Lowell,110997
- Texas,Lubbock,258862
- Virginia,Lynchburg,82168
- Massachusetts,Lynn,94299
- California,Lynwood,69887
- Georgia,Macon,153159
- California,Madera,65860
- Wisconsin,Madison,259680
+state,city,city_pop
  Alabama,Madison,51593
- Massachusetts,Malden,60470
- New Hampshire,Manchester,112673
- Kansas,Manhattan,54604
- Texas,Mansfield,72419
- California,Manteca,83028
- Minnesota,Maple Grove,72622
- Florida,Margate,58796
- Arizona,Maricopa,52127
- Georgia,Marietta,60867
- Washington,Marysville,70298
- Texas,McAllen,143268
- Texas,McKinney,199177
- Oregon,Medford,83072
- Massachusetts,Medford,57341
- Florida,Melbourne,83029
- Tennessee,Memphis,651073
- California,Menifee,94756
- California,Merced,83676
- Connecticut,Meriden,59395
- Idaho,Meridian,114161
- Arizona,Mesa,518012
- Texas,Mesquite,140937
- Massachusetts,Methuen Town,50706
- Florida,Miami,467963
- Florida,Miami Beach,88885
- Florida,Miami Gardens,110001
- Texas,Midland,146038
- Oklahoma,Midwest,57407
- Connecticut,Milford,53195
- Utah,Millcreek,61450
- California,Milpitas,84196
- Wisconsin,Milwaukee,590157
- Minnesota,Minneapolis,429606
- Minnesota,Minnetonka,54064
- Florida,Miramar,141191
- Indiana,Mishawaka,50363
- Texas,Mission,84331
- California,Mission Viejo,94381
- Montana,Missoula,75516
- Texas,Missouri,75457
+ Alabama,Decatur,54445
+ Alabama,Auburn,66259
+ Alabama,Dothan,68941
+ Alabama,Hoover,85768
+ Alabama,Tuscaloosa,101129
  Alabama,Mobile,188720
- California,Modesto,215196
- California,Montebello,61954
- California,Monterey Park,59669
  Alabama,Montgomery,198525
- Oklahoma,Moore,62055
- California,Moreno Valley,213055
- South Carolina,Mount Pleasant town,91684
- Illinois,Mount Prospect village,53719
- New York,Mount Vernon,67345
- California,Mountain View,82739
- Indiana,Muncie,67999
- Tennessee,Murfreesboro,146900
- California,Murrieta,116223
- Idaho,Nampa,99277
- California,Napa,78130
- Illinois,Naperville,148449
- New Hampshire,Nashua,89355
- Tennessee,Nashville,670820
- California,National,61394
- Massachusetts,New Bedford,95363
- Texas,New Braunfels,90209
- Connecticut,New Britain,72495
- New Jersey,New Brunswick,55676
- Connecticut,New Haven,130250
- Louisiana,New Orleans,390144
- New York,New Rochelle,78557
- New York,New York,8336817
- New Jersey,Newark,282011
- Ohio,Newark,50315
- California,Newport Beach,84534
- Virginia,Newport News,179225
- Massachusetts,Newton,88414
- New York,Niagara Falls,47720
- Indiana,Noblesville,64668
- Virginia,Norfolk,242742
- Illinois,Normal town,54469
- Oklahoma,Norman,124880
- South Carolina,North Charleston,115382
- Nevada,North Las Vegas,251974
- Arkansas,North Little Rock,65903
- Florida,North Miami,62822
- Florida,North Port,70724
- Texas,North Richland Hills,70670
- California,Norwalk,103949
- Connecticut,Norwalk,88816
- California,Novato,55516
- Michigan,Novi,60896
- Illinois,Oak Lawn village,55022
- Illinois,Oak Park village,52381
- California,Oakland,433031
- Florida,Ocala,60786
- California,Oceanside,175742
- Texas,Odessa,123334
- Missouri,O'Fallon,88673
- Utah,Ogden,87773
- Oklahoma,Oklahoma,655057
- Kansas,Olathe,140545
- Washington,Olympia,52882
- Nebraska,Omaha,478192
- California,Ontario,185010
- California,Orange,138669
- Utah,Orem,97828
- Illinois,Orland Park village,57857
- Florida,Orlando,287442
- Wisconsin,Oshkosh,67004
- Kansas,Overland Park,195494
- Kentucky,Owensboro,60131
- California,Oxnard,208881
- Illinois,Palatine village,67482
- Florida,Palm Bay,115552
- Florida,Palm Beach Gardens,57704
- Florida,Palm Coast,89800
- California,Palm Desert,53275
- California,Palmdale,155079
- California,Palo Alto,65364
- California,Paramount,53955
- Colorado,Parker town,57706
- Ohio,Parma,78103
- Texas,Pasadena,151227
- California,Pasadena,141029
- Washington,Pasco,75432
- New Jersey,Passaic,69703
- New Jersey,Paterson,145233
- Rhode Island,Pawtucket,72117
- Massachusetts,Peabody,53070
- Texas,Pearland,122460
- Florida,Pembroke Pines,173591
- Florida,Pensacola,52975
- Arizona,Peoria,175961
- Illinois,Peoria,110417
- California,Perris,79291
- New Jersey,Perth Amboy,51390
- California,Petaluma,60520
- Texas,Pflugerville,65380
- Texas,Pharr,79112
- Pennsylvania,Philadelphia,1584064
- Arizona,Phoenix,1680992
- California,Pico Rivera,62027
- Florida,Pinellas Park,53637
- California,Pittsburg,72588
- Pennsylvania,Pittsburgh,300286
- California,Placentia,51233
- New Jersey,Plainfield,50317
- Texas,Plano,287677
- Florida,Plantation,94580
- California,Pleasanton,81777
- Minnesota,Plymouth,79768
- Idaho,Pocatello,56637
- California,Pomona,151691
- Florida,Pompano Beach,112118
- Michigan,Pontiac,59438
- Texas,Port Arthur,54280
- Florida,Port Orange,64842
- Florida,Port St. Lucie,201846
- California,Porterville,59599
- Oregon,Portland,654741
- Maine,Portland,66215
- Virginia,Portsmouth,94398
- Rhode Island,Providence,179883
- Utah,Provo,116618
- Colorado,Pueblo,112361
+ Alabama,Huntsville,200574
+ Alabama,Birmingham,209403
+ Alaska,Anchorage,288000
  Arizona,Queen Creek town,50890
- Massachusetts,Quincy,94470
- Wisconsin,Racine,76760
- North Carolina,Raleigh,474069
- California,Rancho Cordova,75087
- California,Rancho Cucamonga,177603
- South Dakota,Rapid,77503
- Pennsylvania,Reading,88375
- California,Redding,92590
- California,Redlands,71513
- Washington,Redmond,71929
- California,Redondo Beach,66749
- California,Redwood,85925
- Nevada,Reno,255601
- Washington,Renton,101751
- Massachusetts,Revere,53073
- California,Rialto,103526
- Texas,Richardson,121323
- Washington,Richland,58225
- Virginia,Richmond,230436
- California,Richmond,110567
- New Mexico,Rio Rancho,99178
- California,Riverside,331360
- Virginia,Roanoke,99143
- New York,Rochester,205695
- Minnesota,Rochester,118935
- Michigan,Rochester Hills,74516
- South Carolina,Rock Hill,75048
- Illinois,Rockford,145609
- California,Rocklin,68823
- Maryland,Rockville,68079
- North Carolina,Rocky Mount,53922
+ Arizona,Maricopa,52127
+ Arizona,Lake Havasu,55865
+ Arizona,Casa Grande,58632
+ Arizona,Flagstaff,75038
+ Arizona,Buckeye,79620
+ Arizona,Goodyear,86840
+ Arizona,Avondale,87931
+ Arizona,Yuma,98285
+ Arizona,Surprise,141664
+ Arizona,Peoria,175961
+ Arizona,Tempe,195805
+ Arizona,Glendale,252381
+ Arizona,Gilbert town,254114
+ Arizona,Scottsdale,258069
+ Arizona,Chandler,261165
+ Arizona,Mesa,518012
+ Arizona,Tucson,548073
+ Arizona,Phoenix,1680992
+ Arkansas,Bentonville,54909
+ Arkansas,North Little Rock,65903
+ Arkansas,Conway,67638
  Arkansas,Rogers,68669
+ Arkansas,Jonesboro,78394
+ Arkansas,Springdale,81125
+ Arkansas,Fayetteville,87590
+ Arkansas,Fort Smith,87891
+ Arkansas,Little Rock,197312
+ California,Cerritos,49859
+ California,Aliso Viejo,50887
+ California,Beaumont,51063
+ California,Placentia,51233
+ California,Glendora,51544
+ California,Palm Desert,53275
+ California,West Sacramento,53519
+ California,Delano,53573
+ California,Watsonville,53856
+ California,Yucaipa,53921
+ California,Paramount,53955
  California,Rosemead,54058
- California,Roseville,141500
- Georgia,Roswell,94763
- Texas,Round Rock,133372
- Texas,Rowlett,67339
- Michigan,Royal Oak,59277
- California,Sacramento,513624
- Michigan,Saginaw,48115
- Oregon,Salem,174365
- California,Salinas,155465
- Utah,Salt Lake,200567
- Washington,Sammamish,65892
- Texas,San Angelo,101004
- Texas,San Antonio,1547253
- California,San Bernardino,215784
- California,San Buenaventura (Ventura),109106
+ California,Colton,54824
+ California,Cathedral,55007
+ California,Fountain Valley,55357
+ California,Highland,55417
+ California,Novato,55516
+ California,Diamond Bar,55720
+ California,Huntington Park,57509
+ California,Hanford,57703
+ California,Arcadia,57939
+ California,Santee,58081
+ California,San Rafael,58440
+ California,Gilroy,59032
+ California,La Mesa,59249
+ California,Cupertino,59276
+ California,Gardena,59329
+ California,Porterville,59599
+ California,Monterey Park,59669
+ California,La Habra,60513
+ California,Petaluma,60520
+ California,Woodland,60548
+ California,National,61394
+ California,Montebello,61954
+ California,Pico Rivera,62027
+ California,Encinitas,62709
+ California,Eastvale,64157
+ California,Brentwood,64474
  California,San Clemente,64558
- California,San Diego,1423851
+ California,Santa Cruz,64608
+ California,Dublin,64826
+ California,Palo Alto,65364
+ California,Tulare,65496
+ California,Madera,65860
+ California,Laguna Niguel,66385
+ California,Redondo Beach,66749
+ California,Yuba,67010
+ California,Lodi,67586
+ California,Yorba Linda,67644
+ California,South San Francisco,67789
+ California,Rocklin,68823
+ California,Lake Elsinore,69283
+ California,Davis,69413
+ California,Lynwood,69887
+ California,Camarillo,69888
+ California,Walnut Creek,70166
+ California,Redlands,71513
+ California,Pittsburg,72588
+ California,Apple Valley town,73453
+ California,Turlock,73631
+ California,Union,74107
+ California,Rancho Cordova,75087
+ California,Baldwin Park,75251
+ California,San Ramon,75995
+ California,Bellflower,76435
+ California,Upland,77140
+ California,Alameda,77624
+ California,Napa,78130
+ California,Perris,79291
+ California,Lakewood,79307
+ California,Tustin,79348
+ California,Folsom,81328
+ California,Pleasanton,81777
+ California,Buena Park,81788
+ California,Mountain View,82739
+ California,Manteca,83028
+ California,Merced,83676
+ California,Alhambra,83750
+ California,Chino Hills,83853
+ California,Milpitas,84196
+ California,Newport Beach,84534
+ California,Whittier,85098
+ California,Hemet,85334
+ California,Lake Forest,85531
+ California,Redwood,85925
+ California,Hawthorne,86068
+ California,Citrus Heights,87796
+ California,San Leandro,88815
+ California,Livermore,90189
+ California,Santa Monica,90401
+ California,Westminster,90643
+ California,Santa Barbara,91364
+ California,Carson,91394
+ California,Indio,91765
+ California,Redding,92590
+ California,South Gate,93444
+ California,Chino,94371
+ California,Mission Viejo,94381
+ California,Tracy,94740
+ California,Menifee,94756
+ California,Compton,95605
+ California,Hesperia,95750
+ California,San Marcos,96664
+ California,Vacaville,100670
+ California,Vista,101638
+ California,Burbank,102511
+ California,El Cajon,102708
+ California,Chico,103301
+ California,Rialto,103526
+ California,Norwalk,103949
+ California,San Mateo,104430
+ California,West Covina,105101
+ California,Daly,106280
+ California,Santa Maria,107263
+ California,Inglewood,108151
+ California,San Buenaventura (Ventura),109106
+ California,Jurupa Valley,109527
+ California,Richmond,110567
+ California,Downey,111126
+ California,Antioch,111502
+ California,Costa Mesa,113003
+ California,Clovis,114584
+ California,Temecula,114761
+ California,Carlsbad,115382
+ California,El Monte,115487
+ California,Murrieta,116223
+ California,Fairfield,117133
+ California,Berkeley,121363
+ California,Vallejo,121692
+ California,Victorville,122385
+ California,Simi Valley,125613
+ California,Thousand Oaks,126813
+ California,Concord,129295
+ California,Santa Clara,130365
+ California,Visalia,134605
+ California,Fullerton,138632
+ California,Orange,138669
+ California,Pasadena,141029
+ California,Roseville,141500
+ California,Torrance,143592
+ California,Escondido,151625
+ California,Pomona,151691
+ California,Sunnyvale,152703
+ California,Palmdale,155079
+ California,Salinas,155465
+ California,Lancaster,157601
+ California,Hayward,159203
+ California,Corona,169868
+ California,Garden Grove,171644
+ California,Elk Grove,174775
+ California,Oceanside,175742
+ California,Santa Rosa,176753
+ California,Rancho Cucamonga,177603
+ California,Ontario,185010
+ California,Huntington Beach,199223
+ California,Glendale,199303
+ California,Oxnard,208881
+ California,Santa Clarita,212979
+ California,Moreno Valley,213055
+ California,Fontana,214547
+ California,Modesto,215196
+ California,San Bernardino,215784
+ California,Fremont,241110
+ California,Chula Vista,274492
+ California,Irvine,287401
+ California,Stockton,312697
+ California,Riverside,331360
+ California,Santa Ana,332318
+ California,Anaheim,350365
+ California,Bakersfield,384145
+ California,Oakland,433031
+ California,Long Beach,462628
+ California,Sacramento,513624
+ California,Fresno,531576
  California,San Francisco,881549
  California,San Jose,1021795
- California,San Leandro,88815
- California,San Marcos,96664
- Texas,San Marcos,64776
- California,San Mateo,104430
- California,San Rafael,58440
- California,San Ramon,75995
- Utah,Sandy,96380
- Georgia,Sandy Springs,109452
- Florida,Sanford,61448
- California,Santa Ana,332318
- California,Santa Barbara,91364
- California,Santa Clara,130365
- California,Santa Clarita,212979
- California,Santa Cruz,64608
- New Mexico,Santa Fe,84683
- California,Santa Maria,107263
- California,Santa Monica,90401
- California,Santa Rosa,176753
- California,Santee,58081
- Florida,Sarasota,58285
- Georgia,Savannah,144464
- Illinois,Schaumburg village,72887
- New York,Schenectady,65273
- Arizona,Scottsdale,258069
- Pennsylvania,Scranton,76653
- Washington,Seattle,753675
- Kansas,Shawnee,65807
- Washington,Shoreline,57027
- Louisiana,Shreveport,187112
- California,Simi Valley,125613
- Iowa,Sioux,82651
- South Dakota,Sioux Falls,183793
- Illinois,Skokie village,62700
- Georgia,Smyrna,56666
- Tennessee,Smyrna town,51586
- Massachusetts,Somerville,81360
- Indiana,South Bend,102026
- Georgia,South Fulton,99155
- California,South Gate,93444
- Utah,South Jordan,76598
- California,South San Francisco,67789
- Mississippi,Southaven,55780
- Michigan,Southfield,72689
- Nevada,Sparks,105006
- Washington,Spokane,222081
- Washington,Spokane Valley,101060
- Arkansas,Springdale,81125
- Missouri,Springfield,167882
- Massachusetts,Springfield,153606
- Illinois,Springfield,114230
- Oregon,Springfield,63230
- Ohio,Springfield,58877
- Missouri,St. Charles,71028
- Michigan,St. Clair Shores,58984
- Minnesota,St. Cloud,68462
- Florida,St. Cloud,54579
- Utah,St. George,89587
- Missouri,St. Joseph,74875
- Missouri,St. Louis,300576
- Minnesota,St. Paul,308096
- Missouri,St. Peters,58212
- Florida,St. Petersburg,265351
- Connecticut,Stamford,129638
- Michigan,Sterling Heights,132438
- Oklahoma,Stillwater,50299
- California,Stockton,312697
- Georgia,Stonecrest,54903
- Virginia,Suffolk,92108
- Texas,Sugar Land,118488
- South Carolina,Summerville town,52549
- California,Sunnyvale,152703
- Florida,Sunrise,95166
- Arizona,Surprise,141664
- New York,Syracuse,142327
- Washington,Tacoma,217827
- Florida,Tallahassee,194500
- Florida,Tamarac,66721
- Florida,Tampa,399700
- Massachusetts,Taunton,57464
- Michigan,Taylor,60922
- Utah,Taylorsville,59805
- California,Temecula,114761
- Arizona,Tempe,195805
- Texas,Temple,78439
- Indiana,Terre Haute,60622
- Texas,Texas,50094
- Colorado,Thornton,141464
- California,Thousand Oaks,126813
- Oregon,Tigard,55514
- Illinois,Tinley Park village,55773
- Ohio,Toledo,272779
- Kansas,Topeka,125310
- California,Torrance,143592
- California,Tracy,94740
- New Jersey,Trenton,83203
- Michigan,Troy,84092
- New York,Troy,49154
- Arizona,Tucson,548073
- California,Tulare,65496
- Oklahoma,Tulsa,401190
- California,Turlock,73631
- Alabama,Tuscaloosa,101129
- California,Tustin,79348
- Idaho,Twin Falls,50197
- Texas,Tyler,106985
- California,Union,74107
- New Jersey,Union,67982
- California,Upland,77140
- Hawaii,Urban Honolulu CDP,345064
- New York,Utica,59750
- California,Vacaville,100670
- Georgia,Valdosta,56457
- California,Vallejo,121692
- Washington,Vancouver,184463
- Texas,Victoria,66916
- California,Victorville,122385
- New Jersey,Vineland,59439
- Virginia,Virginia Beach,449974
- California,Visalia,134605
- California,Vista,101638
- Texas,Waco,139236
- California,Walnut Creek,70166
- Massachusetts,Waltham,62495
- Georgia,Warner Robins,77617
- Michigan,Warren,133943
- Rhode Island,Warwick,81004
- District of Columbia,Washington,705749
- Connecticut,Waterbury,107568
- Iowa,Waterloo,67328
- California,Watsonville,53856
- Illinois,Waukegan,86075
- Wisconsin,Waukesha,72299
- Florida,Wellington village,65398
- Wisconsin,West Allis,59890
- California,West Covina,105101
- Iowa,West Des Moines,67899
- Connecticut,West Haven,54620
- Utah,West Jordan,116480
- Indiana,West Lafayette,50996
- New Jersey,West New York town,52723
- Florida,West Palm Beach,111955
- California,West Sacramento,53519
- Utah,West Valley,135248
- Michigan,Westland,81511
+ California,San Diego,1423851
+ California,Los Angeles,3979576
+ Colorado,Parker town,57706
+ Colorado,Commerce,60336
+ Colorado,Grand Junction,63597
+ Colorado,Castle Rock town,68484
+ Colorado,Broomfield,70465
+ Colorado,Loveland,78877
+ Colorado,Longmont,97261
+ Colorado,Boulder,105673
+ Colorado,Greeley,108649
+ Colorado,Centennial,110937
+ Colorado,Pueblo,112361
  Colorado,Westminster,113166
- California,Westminster,90643
- Florida,Weston,71166
- Massachusetts,Weymouth Town,57746
- Illinois,Wheaton,52745
- New York,White Plains,58109
- California,Whittier,85098
- Kansas,Wichita,389938
- Texas,Wichita Falls,104683
- North Carolina,Wilmington,123744
+ Colorado,Arvada,121272
+ Colorado,Thornton,141464
+ Colorado,Lakewood,157935
+ Colorado,Fort Collins,170243
+ Colorado,Aurora,379289
+ Colorado,Colorado Springs,478221
+ Colorado,Denver,727211
+ Connecticut,Milford,53195
+ Connecticut,West Haven,54620
+ Connecticut,Meriden,59395
+ Connecticut,Bristol,59947
+ Connecticut,New Britain,72495
+ Connecticut,Danbury,84694
+ Connecticut,Norwalk,88816
+ Connecticut,Waterbury,107568
+ Connecticut,Hartford,122105
+ Connecticut,Stamford,129638
+ Connecticut,New Haven,130250
+ Connecticut,Bridgeport,144399
  Delaware,Wilmington,70166
- North Carolina,Winston,247945
- Minnesota,Woodbury,72828
- California,Woodland,60548
+ District of Columbia,Washington,705749
+ Florida,Coral Gables,49700
+ Florida,Pensacola,52975
+ Florida,Apopka,53447
+ Florida,Pinellas Park,53637
+ Florida,St. Cloud,54579
+ Florida,Palm Beach Gardens,57704
+ Florida,Sarasota,58285
+ Florida,Margate,58796
+ Florida,Bradenton,59439
+ Florida,Bonita Springs,59637
+ Florida,Ocala,60786
+ Florida,Coconut Creek,61248
+ Florida,Sanford,61448
+ Florida,North Miami,62822
+ Florida,Port Orange,64842
+ Florida,Wellington village,65398
+ Florida,Doral,65741
+ Florida,Jupiter town,65791
+ Florida,Tamarac,66721
+ Florida,Daytona Beach,69186
+ Florida,Delray Beach,69451
+ Florida,Homestead,69523
+ Florida,North Port,70724
+ Florida,Weston,71166
+ Florida,Lauderhill,71868
+ Florida,Kissimmee,72717
+ Florida,Boynton Beach,78679
+ Florida,Deerfield Beach,81066
+ Florida,Melbourne,83029
+ Florida,Largo,84948
+ Florida,Fort Myers,87103
+ Florida,Miami Beach,88885
+ Florida,Palm Coast,89800
+ Florida,Deltona,92757
+ Florida,Plantation,94580
+ Florida,Sunrise,95166
+ Florida,Boca Raton,99805
+ Florida,Davie town,106306
+ Florida,Miami Gardens,110001
+ Florida,West Palm Beach,111955
+ Florida,Pompano Beach,112118
+ Florida,Lakeland,112136
+ Florida,Palm Bay,115552
+ Florida,Clearwater,116946
+ Florida,Coral Springs,133759
+ Florida,Gainesville,133997
+ Florida,Miramar,141191
+ Florida,Hollywood,154817
+ Florida,Pembroke Pines,173591
+ Florida,Fort Lauderdale,182437
+ Florida,Cape Coral,194495
+ Florida,Tallahassee,194500
+ Florida,Port St. Lucie,201846
+ Florida,Hialeah,233339
+ Florida,St. Petersburg,265351
+ Florida,Orlando,287442
+ Florida,Tampa,399700
+ Florida,Miami,467963
+ Florida,Jacksonville,911507
+ Georgia,Stonecrest,54903
+ Georgia,Brookhaven,55554
+ Georgia,Valdosta,56457
+ Georgia,Smyrna,56666
+ Georgia,Marietta,60867
+ Georgia,Alpharetta,67213
+ Georgia,Albany,72130
+ Georgia,Warner Robins,77617
+ Georgia,Johns Creek,84579
+ Georgia,Roswell,94763
+ Georgia,South Fulton,99155
+ Georgia,Sandy Springs,109452
+ Georgia,Athens,126913
+ Georgia,Savannah,144464
+ Georgia,Macon,153159
+ Georgia,Columbus,195769
+ Georgia,Augusta,197888
+ Georgia,Atlanta,506811
+ Hawaii,Urban Honolulu CDP,345064
+ Idaho,Twin Falls,50197
+ Idaho,Coeur d'Alene,52414
+ Idaho,Pocatello,56637
+ Idaho,Caldwell,58481
+ Idaho,Idaho Falls,62888
+ Idaho,Nampa,99277
+ Idaho,Meridian,114161
+ Idaho,Boise,228959
+ Illinois,Hoffman Estates village,50932
+ Illinois,Oak Park village,52381
+ Illinois,Wheaton,52745
+ Illinois,Mount Prospect village,53719
+ Illinois,Berwyn,54391
+ Illinois,Normal town,54469
+ Illinois,Oak Lawn village,55022
+ Illinois,Tinley Park village,55773
+ Illinois,Orland Park village,57857
+ Illinois,Des Plaines,58899
+ Illinois,Skokie village,62700
+ Illinois,Palatine village,67482
+ Illinois,Decatur,70746
+ Illinois,Schaumburg village,72887
+ Illinois,Evanston,73473
+ Illinois,Bolingbrook village,74545
+ Illinois,Arlington Heights village,74760
+ Illinois,Bloomington,77330
+ Illinois,Cicero town,80796
+ Illinois,Waukegan,86075
+ Illinois,Champaign,88909
+ Illinois,Peoria,110417
+ Illinois,Elgin,110849
+ Illinois,Springfield,114230
+ Illinois,Rockford,145609
+ Illinois,Joliet,147344
+ Illinois,Naperville,148449
+ Illinois,Aurora,197757
+ Illinois,Chicago,2693976
+ Indiana,Mishawaka,50363
+ Indiana,West Lafayette,50996
+ Indiana,Elkhart,52358
+ Indiana,Anderson,54765
+ Indiana,Kokomo,58020
+ Indiana,Greenwood,59458
+ Indiana,Terre Haute,60622
+ Indiana,Noblesville,64668
+ Indiana,Muncie,67999
+ Indiana,Lafayette,71721
+ Indiana,Gary,74879
+ Indiana,Hammond,75522
+ Indiana,Bloomington,85755
+ Indiana,Fishers,95310
+ Indiana,Carmel,101068
+ Indiana,South Bend,102026
+ Indiana,Evansville,117979
+ Indiana,Fort Wayne,270402
+ Indiana,Indianapolis,876384
+ Iowa,Dubuque,57882
+ Iowa,Council Bluffs,62166
+ Iowa,Ames,66258
+ Iowa,Waterloo,67328
+ Iowa,Ankeny,67355
+ Iowa,West Des Moines,67899
+ Iowa,Iowa,75130
+ Iowa,Sioux,82651
+ Iowa,Davenport,101590
+ Iowa,Cedar Rapids,133562
+ Iowa,Des Moines,214237
+ Kansas,Manhattan,54604
+ Kansas,Lenexa,55625
+ Kansas,Shawnee,65807
+ Kansas,Lawrence,98193
+ Kansas,Topeka,125310
+ Kansas,Olathe,140545
+ Kansas,Kansas,152960
+ Kansas,Overland Park,195494
+ Kansas,Wichita,389938
+ Kentucky,Owensboro,60131
+ Kentucky,Bowling Green,70543
+ Kentucky,Lexington,323152
+ Kentucky,Louisville,617638
+ Louisiana,Kenner,66340
+ Louisiana,Bossier,68159
+ Louisiana,Lake Charles,78396
+ Louisiana,Lafayette,126185
+ Louisiana,Shreveport,187112
+ Louisiana,Baton Rouge,220236
+ Louisiana,New Orleans,390144
+ Maine,Portland,66215
+ Maryland,Bowie,58643
+ Maryland,Gaithersburg,67985
+ Maryland,Rockville,68079
+ Maryland,Frederick,72244
+ Maryland,Baltimore,593490
+ Massachusetts,Methuen Town,50706
+ Massachusetts,Peabody,53070
+ Massachusetts,Revere,53073
+ Massachusetts,Chicopee,55126
+ Massachusetts,Medford,57341
+ Massachusetts,Taunton,57464
+ Massachusetts,Weymouth Town,57746
+ Massachusetts,Malden,60470
+ Massachusetts,Waltham,62495
+ Massachusetts,Haverhill,64014
+ Massachusetts,Framingham,74416
+ Massachusetts,Lawrence,80028
+ Massachusetts,Somerville,81360
+ Massachusetts,Newton,88414
+ Massachusetts,Fall River,89541
+ Massachusetts,Lynn,94299
+ Massachusetts,Quincy,94470
+ Massachusetts,New Bedford,95363
+ Massachusetts,Brockton,95708
+ Massachusetts,Lowell,110997
+ Massachusetts,Cambridge,118927
+ Massachusetts,Springfield,153606
  Massachusetts,Worcester,185428
- Texas,Wylie,53067
+ Massachusetts,Boston,692600
+ Michigan,Saginaw,48115
+ Michigan,Battle Creek,51093
+ Michigan,Kentwood,51898
+ Michigan,Dearborn Heights,55353
+ Michigan,St. Clair Shores,58984
+ Michigan,Royal Oak,59277
+ Michigan,Pontiac,59438
+ Michigan,Novi,60896
+ Michigan,Taylor,60922
+ Michigan,Southfield,72689
+ Michigan,Rochester Hills,74516
  Michigan,Wyoming,75667
- Washington,Yakima,93637
+ Michigan,Kalamazoo,76200
+ Michigan,Farmington Hills,80612
+ Michigan,Westland,81511
+ Michigan,Troy,84092
+ Michigan,Livonia,93665
+ Michigan,Dearborn,93932
+ Michigan,Flint,95538
+ Michigan,Lansing,118210
+ Michigan,Ann Arbor,119980
+ Michigan,Sterling Heights,132438
+ Michigan,Warren,133943
+ Michigan,Grand Rapids,201013
+ Michigan,Detroit,670031
+ Minnesota,Edina,52857
+ Minnesota,Minnetonka,54064
+ Minnesota,Apple Valley,55135
+ Minnesota,Burnsville,61339
+ Minnesota,Coon Rapids,62998
+ Minnesota,Eden Prairie,64893
+ Minnesota,Blaine,65607
+ Minnesota,Eagan,66372
+ Minnesota,Lakeville,67317
+ Minnesota,St. Cloud,68462
+ Minnesota,Maple Grove,72622
+ Minnesota,Woodbury,72828
+ Minnesota,Plymouth,79768
+ Minnesota,Brooklyn Park,80389
+ Minnesota,Bloomington,84943
+ Minnesota,Duluth,85618
+ Minnesota,Rochester,118935
+ Minnesota,St. Paul,308096
+ Minnesota,Minneapolis,429606
+ Mississippi,Southaven,55780
+ Mississippi,Gulfport,71705
+ Mississippi,Jackson,160628
+ Missouri,Joplin,50925
+ Missouri,Florissant,50952
+ Missouri,Blue Springs,55829
+ Missouri,St. Peters,58212
+ Missouri,St. Charles,71028
+ Missouri,St. Joseph,74875
+ Missouri,O'Fallon,88673
+ Missouri,Lee's Summit,99357
+ Missouri,Independence,116672
+ Missouri,Columbia,123195
+ Missouri,Springfield,167882
+ Missouri,St. Louis,300576
+ Missouri,Kansas,495327
+ Montana,Great Falls,58434
+ Montana,Missoula,75516
+ Montana,Billings,109577
+ Nebraska,Grand Island,51267
+ Nebraska,Bellevue,53544
+ Nebraska,Lincoln,289102
+ Nebraska,Omaha,478192
+ Nevada,Carson,55916
+ Nevada,Sparks,105006
+ Nevada,North Las Vegas,251974
+ Nevada,Reno,255601
+ Nevada,Henderson,320189
+ Nevada,Las Vegas,651319
+ New Hampshire,Nashua,89355
+ New Hampshire,Manchester,112673
+ New Jersey,Plainfield,50317
+ New Jersey,Perth Amboy,51390
+ New Jersey,Hoboken,52677
+ New Jersey,West New York town,52723
+ New Jersey,New Brunswick,55676
+ New Jersey,Vineland,59439
+ New Jersey,East Orange,64367
+ New Jersey,Bayonne,64897
+ New Jersey,Union,67982
+ New Jersey,Passaic,69703
+ New Jersey,Camden,73562
+ New Jersey,Trenton,83203
+ New Jersey,Clifton,85052
+ New Jersey,Elizabeth,129216
+ New Jersey,Paterson,145233
+ New Jersey,Jersey,262075
+ New Jersey,Newark,282011
+ New Mexico,Santa Fe,84683
+ New Mexico,Rio Rancho,99178
+ New Mexico,Las Cruces,103432
+ New Mexico,Albuquerque,560513
+ New York,Niagara Falls,47720
+ New York,Troy,49154
+ New York,Hempstead village,55113
+ New York,White Plains,58109
+ New York,Utica,59750
+ New York,Schenectady,65273
+ New York,Mount Vernon,67345
+ New York,New Rochelle,78557
+ New York,Albany,96460
+ New York,Syracuse,142327
  New York,Yonkers,200370
- California,Yorba Linda,67644
+ New York,Rochester,205695
+ New York,Buffalo,255284
+ New York,New York,8336817
+ North Carolina,Kannapolis,50841
+ North Carolina,Rocky Mount,53922
+ North Carolina,Burlington,54606
+ North Carolina,Huntersville town,58098
+ North Carolina,Apex town,59300
+ North Carolina,Chapel Hill town,64051
+ North Carolina,Jacksonville,72436
+ North Carolina,Gastonia,77273
+ North Carolina,Asheville,92870
+ North Carolina,Greenville,93400
+ North Carolina,Concord,96341
+ North Carolina,High Point,112791
+ North Carolina,Wilmington,123744
+ North Carolina,Cary town,170282
+ North Carolina,Fayetteville,211657
+ North Carolina,Winston,247945
+ North Carolina,Durham,278993
+ North Carolina,Greensboro,296710
+ North Carolina,Raleigh,474069
+ North Carolina,Charlotte,885708
+ North Dakota,Grand Forks,55839
+ North Dakota,Bismarck,73529
+ North Dakota,Fargo,124662
+ Ohio,Lakewood,49678
+ Ohio,Newark,50315
+ Ohio,Elyria,53757
+ Ohio,Kettering,54855
+ Ohio,Springfield,58877
+ Ohio,Hamilton,62082
+ Ohio,Lorain,63855
  Ohio,Youngstown,65469
- California,Yuba,67010
- California,Yucaipa,53921
- Arizona,Yuma,98285
+ Ohio,Canton,70447
+ Ohio,Parma,78103
+ Ohio,Dayton,140407
+ Ohio,Akron,197597
+ Ohio,Toledo,272779
+ Ohio,Cincinnati,303940
+ Ohio,Cleveland,381009
+ Ohio,Columbus,898553
+ Oklahoma,Enid,49688
+ Oklahoma,Stillwater,50299
+ Oklahoma,Midwest,57407
+ Oklahoma,Moore,62055
+ Oklahoma,Lawton,93025
+ Oklahoma,Edmond,94054
+ Oklahoma,Broken Arrow,110198
+ Oklahoma,Norman,124880
+ Oklahoma,Tulsa,401190
+ Oklahoma,Oklahoma,655057
+ Oregon,Albany,55338
+ Oregon,Tigard,55514
+ Oregon,Corvallis,58856
+ Oregon,Springfield,63230
+ Oregon,Medford,83072
+ Oregon,Beaverton,99037
+ Oregon,Bend,100421
+ Oregon,Hillsboro,109128
+ Oregon,Gresham,109381
+ Oregon,Eugene,172622
+ Oregon,Salem,174365
+ Oregon,Portland,654741
+ Pennsylvania,Lancaster,59265
+ Pennsylvania,Bethlehem,75815
+ Pennsylvania,Scranton,76653
+ Pennsylvania,Reading,88375
+ Pennsylvania,Erie,95508
+ Pennsylvania,Allentown,121442
+ Pennsylvania,Pittsburgh,300286
+ Pennsylvania,Philadelphia,1584064
+ Rhode Island,Pawtucket,72117
+ Rhode Island,Warwick,81004
+ Rhode Island,Cranston,81456
+ Rhode Island,Providence,179883
+ South Carolina,Summerville town,52549
+ South Carolina,Greenville,70635
+ South Carolina,Rock Hill,75048
+ South Carolina,Mount Pleasant town,91684
+ South Carolina,North Charleston,115382
+ South Carolina,Columbia,131674
+ South Carolina,Charleston,137566
+ South Dakota,Rapid,77503
+ South Dakota,Sioux Falls,183793
+ Tennessee,Collierville town,51040
+ Tennessee,Smyrna town,51586
+ Tennessee,Kingsport,54127
+ Tennessee,Hendersonville,58113
+ Tennessee,Bartlett,59440
+ Tennessee,Johnson,66906
+ Tennessee,Jackson,67191
+ Tennessee,Franklin,83097
+ Tennessee,Murfreesboro,146900
+ Tennessee,Clarksville,158146
+ Tennessee,Chattanooga,182799
+ Tennessee,Knoxville,187603
+ Tennessee,Memphis,651073
+ Tennessee,Nashville,670820
+ Texas,Texas,50094
+ Texas,Galveston,50446
+ Texas,DeSoto,52988
+ Texas,Wylie,53067
+ Texas,Little Elm,53126
+ Texas,Port Arthur,54280
+ Texas,Grapevine,55281
+ Texas,Euless,57197
+ Texas,Leander,62608
+ Texas,San Marcos,64776
+ Texas,Harlingen,65022
+ Texas,Pflugerville,65380
+ Texas,Victoria,66916
+ Texas,Rowlett,67339
+ Texas,North Richland Hills,70670
+ Texas,Mansfield,72419
+ Texas,Missouri,75457
+ Texas,Baytown,77192
+ Texas,Temple,78439
+ Texas,Pharr,79112
+ Texas,Flower Mound town,79135
+ Texas,Cedar Park,79462
+ Texas,Georgetown,79604
+ Texas,Longview,81631
+ Texas,Mission,84331
+ Texas,Bryan,86276
+ Texas,New Braunfels,90209
+ Texas,Conroe,91079
+ Texas,San Angelo,101004
+ Texas,Edinburg,101170
+ Texas,Wichita Falls,104683
+ Texas,Allen,105623
+ Texas,Tyler,106985
+ Texas,League,107536
+ Texas,Lewisville,109212
+ Texas,Beaumont,116825
+ Texas,College Station,117911
+ Texas,Sugar Land,118488
+ Texas,Richardson,121323
+ Texas,Pearland,122460
+ Texas,Odessa,123334
+ Texas,Abilene,123420
+ Texas,Round Rock,133372
+ Texas,Waco,139236
+ Texas,Carrollton,139248
+ Texas,Mesquite,140937
+ Texas,Denton,141541
+ Texas,McAllen,143268
+ Texas,Midland,146038
+ Texas,Pasadena,151227
+ Texas,Killeen,151666
+ Texas,Brownsville,182781
+ Texas,Grand Prairie,194543
+ Texas,McKinney,199177
+ Texas,Amarillo,199371
+ Texas,Frisco,200490
+ Texas,Irving,239798
+ Texas,Garland,239928
+ Texas,Lubbock,258862
+ Texas,Laredo,262491
+ Texas,Plano,287677
+ Texas,Corpus Christi,326586
+ Texas,Arlington,398854
+ Texas,El Paso,681728
+ Texas,Fort Worth,909585
+ Texas,Austin,978908
+ Texas,Dallas,1343573
+ Texas,San Antonio,1547253
+ Texas,Houston,2320268
+ Utah,Herriman,51348
+ Utah,Logan,51542
+ Utah,Taylorsville,59805
+ Utah,Millcreek,61450
+ Utah,Lehi,69724
+ Utah,South Jordan,76598
+ Utah,Layton,78014
+ Utah,Ogden,87773
+ Utah,St. George,89587
+ Utah,Sandy,96380
+ Utah,Orem,97828
+ Utah,West Jordan,116480
+ Utah,Provo,116618
+ Utah,West Valley,135248
+ Utah,Salt Lake,200567
+ Virginia,Harrisonburg,53016
+ Virginia,Leesburg town,53727
+ Virginia,Lynchburg,82168
+ Virginia,Suffolk,92108
+ Virginia,Portsmouth,94398
+ Virginia,Roanoke,99143
+ Virginia,Hampton,134510
+ Virginia,Alexandria,159428
+ Virginia,Newport News,179225
+ Virginia,Richmond,230436
+ Virginia,Norfolk,242742
+ Virginia,Chesapeake,244835
+ Virginia,Virginia Beach,449974
+ Washington,Burien,51500
+ Washington,Lacey,52592
+ Washington,Olympia,52882
+ Washington,Shoreline,57027
+ Washington,Richland,58225
+ Washington,Lakewood,61037
+ Washington,Sammamish,65892
+ Washington,Marysville,70298
+ Washington,Redmond,71929
+ Washington,Pasco,75432
+ Washington,Auburn,81464
+ Washington,Kennewick,84347
+ Washington,Bellingham,92314
+ Washington,Kirkland,93010
+ Washington,Yakima,93637
+ Washington,Federal Way,96289
+ Washington,Spokane Valley,101060
+ Washington,Renton,101751
+ Washington,Everett,111475
+ Washington,Kent,132319
+ Washington,Bellevue,148164
+ Washington,Vancouver,184463
+ Washington,Tacoma,217827
+ Washington,Spokane,222081
+ Washington,Seattle,753675
+ West Virginia,Charleston,46536
+ Wisconsin,La Crosse,51227
+ Wisconsin,West Allis,59890
+ Wisconsin,Janesville,64575
+ Wisconsin,Oshkosh,67004
+ Wisconsin,Eau Claire,68802
+ Wisconsin,Waukesha,72299
+ Wisconsin,Appleton,74098
+ Wisconsin,Racine,76760
+ Wisconsin,Kenosha,99944
+ Wisconsin,Green Bay,104578
+ Wisconsin,Madison,259680
+ Wisconsin,Milwaukee,590157
+ Wyoming,Casper,57931
+ Wyoming,Cheyenne,64235
+Puerto Rico,San Juan,418140
+Puerto Rico,Bayamon,203499
+Puerto Rico,Carolina,170404
+Puerto Rico,Ponce,152634
+Puerto Rico,Caguas,86804
+Puerto Rico,Guaynabo,81360
+Puerto Rico,Mayaguez,78647
+Puerto Rico,Trujillo Alto,54189

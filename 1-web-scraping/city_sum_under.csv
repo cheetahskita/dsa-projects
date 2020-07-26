@@ -1,4 +1,4 @@
-State,state_pop,city_count,state_cvs_count,mean,under,state_under_count,city_under_count
+state,state_pop,city_count,state_cvs_sum,mean,under,state_under_count,city_under_count
 California,39512223,398,1175,2.9522613065326633,True,10.0,134.0
 Texas,28995881,280,843,3.0107142857142857,True,27.0,29.0
 New York,19453561,293,572,1.9522184300341296,True,12.0,196.0
