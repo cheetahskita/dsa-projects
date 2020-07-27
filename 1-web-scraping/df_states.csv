@@ -1,0 +1,53 @@
+state,state_pop,city_count,cvs_count,under,under_count
+California,39512223,398,1175,True,10.0
+Texas,28995881,280,843,True,27.0
+Florida,21477737,267,874,False,-230.0
+New York,19453561,293,572,True,12.0
+Pennsylvania,12801989,278,487,False,-103.0
+Illinois,12671821,210,389,False,-9.0
+Ohio,11689100,221,389,False,-38.0
+Georgia,10617423,149,348,False,-29.0
+North Carolina,10488084,170,369,False,-54.0
+Michigan,9986857,136,301,False,-1.0
+New Jersey,8882190,248,348,False,-82.0
+Virginia,8535519,126,353,False,-97.0
+Washington,7614893,29,45,True,183.0
+Arizona,7278717,48,197,True,21.0
+Massachusetts,6892503,217,416,False,-209.0
+Tennessee,6829174,78,161,True,44.0
+Indiana,6732219,167,339,False,-137.0
+Missouri,6137428,96,208,False,-24.0
+Maryland,6045680,111,231,False,-50.0
+Wisconsin,5822434,47,82,True,93.0
+Colorado,5758736,29,51,True,122.0
+Minnesota,5639632,78,133,True,36.0
+South Carolina,5148714,101,212,False,-58.0
+Alabama,4903185,100,180,False,-33.0
+Louisiana,4648794,58,135,True,4.0
+Kentucky,4467673,45,81,True,53.0
+Oregon,4217737,14,22,True,105.0
+Oklahoma,3956971,28,78,True,41.0
+Connecticut,3565287,99,178,False,-71.0
+Utah,3205958,17,29,True,67.0
+Puerto Rico,3193694,14,22,True,74.0
+Iowa,3155070,19,39,True,56.0
+Nevada,3080156,12,99,False,-7.0
+Arkansas,3017804,16,23,True,68.0
+Mississippi,2976149,40,57,True,32.0
+Kansas,2913314,20,54,True,33.0
+New Mexico,2096829,10,25,True,38.0
+Nebraska,1934408,9,30,True,28.0
+West Virginia,1792147,41,57,False,-3.0
+Idaho,1787065,3,3,True,51.0
+Hawaii,1415872,30,71,False,-29.0
+New Hampshire,1359711,32,47,False,-6.0
+Maine,1344212,18,25,True,15.0
+Montana,1068778,8,16,True,16.0
+Rhode Island,1059361,33,66,False,-34.0
+Delaware,973764,14,20,True,9.0
+South Dakota,884659,2,3,True,24.0
+North Dakota,762062,4,6,True,17.0
+Alaska,731545,2,4,True,18.0
+District of Columbia,705749,1,64,False,-43.0
+Vermont,623989,9,9,True,10.0
+Wyoming,578759,2,2,True,15.0

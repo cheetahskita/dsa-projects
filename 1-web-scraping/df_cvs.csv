@@ -1,0 +1,675 @@
+state,state_pop,city_count,cvs_count_state,under_state,under_count_state,city,city_pop,cvs_count_city,under_city,under_count_city
+Alabama,4903185,100,180,False,-33.0,Huntsville,200574.0,9.0,False,-3.0
+Alabama,4903185,100,180,False,-33.0,Madison,51593.0,3.0,False,-1.0
+Alabama,4903185,100,180,False,-33.0,Birmingham,209403.0,12.0,False,-6.0
+Alabama,4903185,100,180,False,-33.0,Montgomery,198525.0,11.0,False,-5.0
+Alabama,4903185,100,180,False,-33.0,Mobile,188720.0,13.0,False,-7.0
+Alabama,4903185,100,180,False,-33.0,Decatur,54445.0,2.0,False,0.0
+Alabama,4903185,100,180,False,-33.0,Hoover,85768.0,4.0,False,-1.0
+Alabama,4903185,100,180,False,-33.0,Dothan,68941.0,4.0,False,-2.0
+Alabama,4903185,100,180,False,-33.0,Auburn,66259.0,4.0,False,-2.0
+Alabama,4903185,100,180,False,-33.0,Tuscaloosa,101129.0,7.0,False,-4.0
+Alaska,731545,2,4,True,18.0,Anchorage,288000.0,2.0,True,7.0
+Arizona,7278717,48,197,True,21.0,Phoenix,1680992.0,44.0,True,6.0
+Arizona,7278717,48,197,True,21.0,Tucson,548073.0,25.0,False,-9.0
+Arizona,7278717,48,197,True,21.0,Mesa,518012.0,18.0,False,-2.0
+Arizona,7278717,48,197,True,21.0,Scottsdale,258069.0,13.0,False,-5.0
+Arizona,7278717,48,197,True,21.0,Glendale,252381.0,5.0,True,3.0
+Arizona,7278717,48,197,True,21.0,Tempe,195805.0,8.0,False,-2.0
+Arizona,7278717,48,197,True,21.0,Surprise,141664.0,5.0,False,-1.0
+Arizona,7278717,48,197,True,21.0,Yuma,98285.0,4.0,False,-1.0
+Arizona,7278717,48,197,True,21.0,Avondale,87931.0,1.0,True,2.0
+Arizona,7278717,48,197,True,21.0,Goodyear,86840.0,3.0,False,0.0
+Arizona,7278717,48,197,True,21.0,Buckeye,79620.0,1.0,True,1.0
+Arizona,7278717,48,197,True,21.0,Flagstaff,75038.0,2.0,True,0.0
+Arizona,7278717,48,197,True,21.0,Casa Grande,58632.0,1.0,True,1.0
+Arizona,7278717,48,197,True,21.0,Maricopa,52127.0,1.0,True,1.0
+Arizona,7278717,48,197,True,21.0,Peoria,175961.0,9.0,False,-4.0
+Arizona,7278717,48,197,True,21.0,Chandler,261165.0,12.0,False,-4.0
+Arkansas,3017804,16,23,True,68.0,Little Rock,197312.0,3.0,True,3.0
+Arkansas,3017804,16,23,True,68.0,Fort Smith,87891.0,1.0,True,2.0
+Arkansas,3017804,16,23,True,68.0,Jonesboro,78394.0,2.0,True,0.0
+Arkansas,3017804,16,23,True,68.0,Fayetteville,87590.0,2.0,True,1.0
+Arkansas,3017804,16,23,True,68.0,Conway,67638.0,2.0,True,0.0
+Arkansas,3017804,16,23,True,68.0,North Little Rock,65903.0,1.0,True,1.0
+Arkansas,3017804,16,23,True,68.0,Springdale,81125.0,1.0,True,1.0
+Arkansas,3017804,16,23,True,68.0,Rogers,68669.0,2.0,True,0.0
+California,39512223,398,1175,True,10.0,Riverside,331360.0,11.0,False,-1.0
+California,39512223,398,1175,True,10.0,Stockton,312697.0,5.0,True,4.0
+California,39512223,398,1175,True,10.0,Irvine,287401.0,11.0,False,-2.0
+California,39512223,398,1175,True,10.0,Chula Vista,274492.0,8.0,True,0.0
+California,39512223,398,1175,True,10.0,Fremont,241110.0,5.0,True,2.0
+California,39512223,398,1175,True,10.0,Roseville,141500.0,6.0,False,-2.0
+California,39512223,398,1175,True,10.0,Orange,138669.0,6.0,False,-2.0
+California,39512223,398,1175,True,10.0,Inglewood,108151.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,West Covina,105101.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,San Mateo,104430.0,6.0,False,-3.0
+California,39512223,398,1175,True,10.0,Santa Ana,332318.0,8.0,True,2.0
+California,39512223,398,1175,True,10.0,Norwalk,103949.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,Santa Rosa,176753.0,6.0,False,-1.0
+California,39512223,398,1175,True,10.0,Anaheim,350365.0,10.0,True,1.0
+California,39512223,398,1175,True,10.0,Upland,77140.0,5.0,False,-3.0
+California,39512223,398,1175,True,10.0,Bakersfield,384145.0,14.0,False,-2.0
+California,39512223,398,1175,True,10.0,Long Beach,462628.0,13.0,True,1.0
+California,39512223,398,1175,True,10.0,Sacramento,513624.0,17.0,False,-2.0
+California,39512223,398,1175,True,10.0,Fresno,531576.0,18.0,False,-2.0
+California,39512223,398,1175,True,10.0,San Francisco,881549.0,24.0,True,2.0
+California,39512223,398,1175,True,10.0,San Jose,1021795.0,29.0,True,2.0
+California,39512223,398,1175,True,10.0,San Diego,1423851.0,36.0,True,7.0
+California,39512223,398,1175,True,10.0,Los Angeles,3979576.0,57.0,True,62.0
+California,39512223,398,1175,True,10.0,Oakland,433031.0,8.0,True,5.0
+California,39512223,398,1175,True,10.0,Modesto,215196.0,9.0,False,-3.0
+California,39512223,398,1175,True,10.0,Fontana,214547.0,5.0,True,1.0
+California,39512223,398,1175,True,10.0,Moreno Valley,213055.0,3.0,True,3.0
+California,39512223,398,1175,True,10.0,Torrance,143592.0,7.0,False,-3.0
+California,39512223,398,1175,True,10.0,Rialto,103526.0,1.0,True,2.0
+California,39512223,398,1175,True,10.0,San Bernardino,215784.0,4.0,True,2.0
+California,39512223,398,1175,True,10.0,Chico,103301.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Concord,129295.0,3.0,True,1.0
+California,39512223,398,1175,True,10.0,Burbank,102511.0,7.0,False,-4.0
+California,39512223,398,1175,True,10.0,Downey,111126.0,3.0,True,0.0
+California,39512223,398,1175,True,10.0,Antioch,111502.0,2.0,True,1.0
+California,39512223,398,1175,True,10.0,Costa Mesa,113003.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,Clovis,114584.0,7.0,False,-4.0
+California,39512223,398,1175,True,10.0,Temecula,114761.0,7.0,False,-4.0
+California,39512223,398,1175,True,10.0,Carlsbad,115382.0,3.0,True,0.0
+California,39512223,398,1175,True,10.0,El Monte,115487.0,3.0,True,0.0
+California,39512223,398,1175,True,10.0,Murrieta,116223.0,6.0,False,-3.0
+California,39512223,398,1175,True,10.0,Berkeley,121363.0,4.0,False,0.0
+California,39512223,398,1175,True,10.0,Vallejo,121692.0,2.0,True,2.0
+California,39512223,398,1175,True,10.0,Victorville,122385.0,2.0,True,2.0
+California,39512223,398,1175,True,10.0,Simi Valley,125613.0,6.0,False,-2.0
+California,39512223,398,1175,True,10.0,Thousand Oaks,126813.0,5.0,False,-1.0
+California,39512223,398,1175,True,10.0,Escondido,151625.0,6.0,False,-1.0
+California,39512223,398,1175,True,10.0,Santa Clara,130365.0,4.0,False,0.0
+California,39512223,398,1175,True,10.0,Visalia,134605.0,5.0,False,-1.0
+California,39512223,398,1175,True,10.0,Fairfield,117133.0,4.0,False,0.0
+California,39512223,398,1175,True,10.0,Compton,95605.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Santa Maria,107263.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,South Gate,93444.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Chino,94371.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Mission Viejo,94381.0,7.0,False,-4.0
+California,39512223,398,1175,True,10.0,Tracy,94740.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Menifee,94756.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Fullerton,138632.0,6.0,False,-2.0
+California,39512223,398,1175,True,10.0,Hesperia,95750.0,2.0,True,1.0
+California,39512223,398,1175,True,10.0,San Marcos,96664.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,Vacaville,100670.0,3.0,True,0.0
+California,39512223,398,1175,True,10.0,Vista,101638.0,6.0,False,-3.0
+California,39512223,398,1175,True,10.0,El Cajon,102708.0,7.0,False,-4.0
+California,39512223,398,1175,True,10.0,Pomona,151691.0,4.0,True,1.0
+California,39512223,398,1175,True,10.0,Richmond,110567.0,2.0,True,1.0
+California,39512223,398,1175,True,10.0,Palmdale,155079.0,4.0,True,1.0
+California,39512223,398,1175,True,10.0,Hawthorne,86068.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Lake Forest,85531.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Whittier,85098.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,Newport Beach,84534.0,2.0,True,1.0
+California,39512223,398,1175,True,10.0,Milpitas,84196.0,1.0,True,2.0
+California,39512223,398,1175,True,10.0,Chino Hills,83853.0,2.0,True,1.0
+California,39512223,398,1175,True,10.0,Alhambra,83750.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Merced,83676.0,2.0,True,1.0
+California,39512223,398,1175,True,10.0,Manteca,83028.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Mountain View,82739.0,5.0,False,-3.0
+California,39512223,398,1175,True,10.0,Buena Park,81788.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Pleasanton,81777.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Folsom,81328.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Laguna Niguel,66385.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Corona,169868.0,5.0,True,0.0
+California,39512223,398,1175,True,10.0,Tulare,65496.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Arcadia,57939.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Huntington Park,57509.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Diamond Bar,55720.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Novato,55516.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Highland,55417.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Citrus Heights,87796.0,1.0,True,2.0
+California,39512223,398,1175,True,10.0,San Leandro,88815.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Livermore,90189.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Santa Monica,90401.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Madera,65860.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,San Ramon,75995.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Baldwin Park,75251.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Rancho Cordova,75087.0,2.0,True,0.0
+California,39512223,398,1175,True,10.0,Turlock,73631.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Pittsburg,72588.0,2.0,True,0.0
+California,39512223,398,1175,True,10.0,Redlands,71513.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Walnut Creek,70166.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Westminster,90643.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Camarillo,69888.0,5.0,False,-3.0
+California,39512223,398,1175,True,10.0,Fountain Valley,55357.0,1.0,True,1.0
+California,39512223,398,1175,True,10.0,Lynwood,69887.0,1.0,True,1.0
+California,39512223,398,1175,True,10.0,Lake Elsinore,69283.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Rocklin,68823.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Yorba Linda,67644.0,2.0,True,0.0
+California,39512223,398,1175,True,10.0,Lodi,67586.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Sunnyvale,152703.0,4.0,True,1.0
+California,39512223,398,1175,True,10.0,Napa,78130.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Alameda,77624.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Hemet,85334.0,5.0,False,-2.0
+California,39512223,398,1175,True,10.0,Lakewood,79307.0,5.0,False,-3.0
+California,39512223,398,1175,True,10.0,Tustin,79348.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Davis,69413.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Colton,54824.0,1.0,True,1.0
+California,39512223,398,1175,True,10.0,Redondo Beach,66749.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Paramount,53955.0,1.0,True,1.0
+California,39512223,398,1175,True,10.0,Petaluma,60520.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,La Habra,60513.0,4.0,False,-2.0
+California,39512223,398,1175,True,10.0,Monterey Park,59669.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Porterville,59599.0,5.0,False,-3.0
+California,39512223,398,1175,True,10.0,Gardena,59329.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Cupertino,59276.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,La Mesa,59249.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Gilroy,59032.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Santa Barbara,91364.0,7.0,False,-4.0
+California,39512223,398,1175,True,10.0,Oceanside,175742.0,6.0,False,-1.0
+California,39512223,398,1175,True,10.0,Indio,91765.0,3.0,False,0.0
+California,39512223,398,1175,True,10.0,Woodland,60548.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Pasadena,141029.0,8.0,False,-4.0
+California,39512223,398,1175,True,10.0,Oxnard,208881.0,3.0,True,3.0
+California,39512223,398,1175,True,10.0,Glendale,199303.0,4.0,True,2.0
+California,39512223,398,1175,True,10.0,Huntington Beach,199223.0,6.0,False,0.0
+California,39512223,398,1175,True,10.0,Ontario,185010.0,3.0,True,3.0
+California,39512223,398,1175,True,10.0,Rancho Cucamonga,177603.0,4.0,True,1.0
+California,39512223,398,1175,True,10.0,Rosemead,54058.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Elk Grove,174775.0,5.0,True,0.0
+California,39512223,398,1175,True,10.0,Garden Grove,171644.0,3.0,True,2.0
+California,39512223,398,1175,True,10.0,Hayward,159203.0,5.0,False,0.0
+California,39512223,398,1175,True,10.0,Lancaster,157601.0,6.0,False,-1.0
+California,39512223,398,1175,True,10.0,Salinas,155465.0,7.0,False,-2.0
+California,39512223,398,1175,True,10.0,Santa Clarita,212979.0,4.0,True,2.0
+California,39512223,398,1175,True,10.0,Montebello,61954.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Redding,92590.0,6.0,False,-3.0
+California,39512223,398,1175,True,10.0,Santee,58081.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,San Rafael,58440.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Hanford,57703.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Santa Cruz,64608.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,San Clemente,64558.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Brentwood,64474.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Eastvale,64157.0,1.0,True,1.0
+California,39512223,398,1175,True,10.0,Encinitas,62709.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Pico Rivera,62027.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Carson,91394.0,4.0,False,-1.0
+California,39512223,398,1175,True,10.0,Dublin,64826.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Aliso Viejo,50887.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Cerritos,49859.0,3.0,False,-2.0
+California,39512223,398,1175,True,10.0,Yucaipa,53921.0,1.0,True,1.0
+California,39512223,398,1175,True,10.0,Watsonville,53856.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Palo Alto,65364.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,Palm Desert,53275.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Glendora,51544.0,2.0,False,0.0
+California,39512223,398,1175,True,10.0,Placentia,51233.0,3.0,False,-1.0
+California,39512223,398,1175,True,10.0,West Sacramento,53519.0,1.0,True,1.0
+Colorado,5758736,29,51,True,122.0,Loveland,78877.0,1.0,True,1.0
+Colorado,5758736,29,51,True,122.0,Boulder,105673.0,1.0,True,2.0
+Colorado,5758736,29,51,True,122.0,Longmont,97261.0,1.0,True,2.0
+Colorado,5758736,29,51,True,122.0,Greeley,108649.0,1.0,True,2.0
+Colorado,5758736,29,51,True,122.0,Grand Junction,63597.0,1.0,True,1.0
+Colorado,5758736,29,51,True,122.0,Westminster,113166.0,2.0,True,1.0
+Colorado,5758736,29,51,True,122.0,Pueblo,112361.0,1.0,True,2.0
+Colorado,5758736,29,51,True,122.0,Arvada,121272.0,1.0,True,3.0
+Colorado,5758736,29,51,True,122.0,Fort Collins,170243.0,2.0,True,3.0
+Colorado,5758736,29,51,True,122.0,Aurora,379289.0,5.0,True,6.0
+Colorado,5758736,29,51,True,122.0,Colorado Springs,478221.0,6.0,True,8.0
+Colorado,5758736,29,51,True,122.0,Denver,727211.0,7.0,True,15.0
+Colorado,5758736,29,51,True,122.0,Lakewood,157935.0,2.0,True,3.0
+Colorado,5758736,29,51,True,122.0,Thornton,141464.0,1.0,True,3.0
+Connecticut,3565287,99,178,False,-71.0,New Britain,72495.0,3.0,False,-1.0
+Connecticut,3565287,99,178,False,-71.0,Danbury,84694.0,4.0,False,-1.0
+Connecticut,3565287,99,178,False,-71.0,Milford,53195.0,3.0,False,-1.0
+Connecticut,3565287,99,178,False,-71.0,West Haven,54620.0,3.0,False,-1.0
+Connecticut,3565287,99,178,False,-71.0,Meriden,59395.0,4.0,False,-2.0
+Connecticut,3565287,99,178,False,-71.0,Bristol,59947.0,3.0,False,-1.0
+Connecticut,3565287,99,178,False,-71.0,Bridgeport,144399.0,3.0,True,1.0
+Connecticut,3565287,99,178,False,-71.0,New Haven,130250.0,3.0,True,1.0
+Connecticut,3565287,99,178,False,-71.0,Stamford,129638.0,9.0,False,-5.0
+Connecticut,3565287,99,178,False,-71.0,Hartford,122105.0,6.0,False,-2.0
+Connecticut,3565287,99,178,False,-71.0,Waterbury,107568.0,5.0,False,-2.0
+Connecticut,3565287,99,178,False,-71.0,Norwalk,88816.0,4.0,False,-1.0
+Delaware,973764,14,20,True,9.0,Wilmington,70166.0,4.0,False,-2.0
+District of Columbia,705749,1,64,False,-43.0,Washington,705749.0,64.0,False,-43.0
+Florida,21477737,267,874,False,-230.0,Coral Gables,49700.0,2.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Pembroke Pines,173591.0,7.0,False,-2.0
+Florida,21477737,267,874,False,-230.0,Fort Lauderdale,182437.0,11.0,False,-6.0
+Florida,21477737,267,874,False,-230.0,Cape Coral,194495.0,6.0,False,0.0
+Florida,21477737,267,874,False,-230.0,Jacksonville,911507.0,32.0,False,-5.0
+Florida,21477737,267,874,False,-230.0,Hialeah,233339.0,19.0,False,-12.0
+Florida,21477737,267,874,False,-230.0,Orlando,287442.0,43.0,False,-34.0
+Florida,21477737,267,874,False,-230.0,Tampa,399700.0,29.0,False,-17.0
+Florida,21477737,267,874,False,-230.0,Miami,467963.0,82.0,False,-68.0
+Florida,21477737,267,874,False,-230.0,Hollywood,154817.0,8.0,False,-3.0
+Florida,21477737,267,874,False,-230.0,Tallahassee,194500.0,13.0,False,-7.0
+Florida,21477737,267,874,False,-230.0,Gainesville,133997.0,12.0,False,-8.0
+Florida,21477737,267,874,False,-230.0,Pompano Beach,112118.0,4.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Coral Springs,133759.0,8.0,False,-4.0
+Florida,21477737,267,874,False,-230.0,Clearwater,116946.0,9.0,False,-5.0
+Florida,21477737,267,874,False,-230.0,Palm Bay,115552.0,3.0,True,0.0
+Florida,21477737,267,874,False,-230.0,Lakeland,112136.0,9.0,False,-6.0
+Florida,21477737,267,874,False,-230.0,West Palm Beach,111955.0,13.0,False,-10.0
+Florida,21477737,267,874,False,-230.0,Miami Gardens,110001.0,2.0,True,1.0
+Florida,21477737,267,874,False,-230.0,Boca Raton,99805.0,11.0,False,-8.0
+Florida,21477737,267,874,False,-230.0,Sunrise,95166.0,2.0,True,1.0
+Florida,21477737,267,874,False,-230.0,Plantation,94580.0,4.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Deltona,92757.0,2.0,True,1.0
+Florida,21477737,267,874,False,-230.0,Pensacola,52975.0,14.0,False,-12.0
+Florida,21477737,267,874,False,-230.0,Palm Coast,89800.0,3.0,False,0.0
+Florida,21477737,267,874,False,-230.0,Miramar,141191.0,5.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Deerfield Beach,81066.0,4.0,False,-2.0
+Florida,21477737,267,874,False,-230.0,Weston,71166.0,2.0,True,0.0
+Florida,21477737,267,874,False,-230.0,Fort Myers,87103.0,15.0,False,-12.0
+Florida,21477737,267,874,False,-230.0,Daytona Beach,69186.0,3.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Delray Beach,69451.0,5.0,False,-3.0
+Florida,21477737,267,874,False,-230.0,Homestead,69523.0,5.0,False,-3.0
+Florida,21477737,267,874,False,-230.0,North Port,70724.0,1.0,True,1.0
+Florida,21477737,267,874,False,-230.0,Miami Beach,88885.0,6.0,False,-3.0
+Florida,21477737,267,874,False,-230.0,Lauderhill,71868.0,3.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Doral,65741.0,4.0,False,-2.0
+Florida,21477737,267,874,False,-230.0,Boynton Beach,78679.0,9.0,False,-7.0
+Florida,21477737,267,874,False,-230.0,Melbourne,83029.0,6.0,False,-4.0
+Florida,21477737,267,874,False,-230.0,Tamarac,66721.0,3.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Sanford,61448.0,3.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Kissimmee,72717.0,12.0,False,-10.0
+Florida,21477737,267,874,False,-230.0,North Miami,62822.0,2.0,False,0.0
+Florida,21477737,267,874,False,-230.0,Port Orange,64842.0,4.0,False,-2.0
+Florida,21477737,267,874,False,-230.0,Largo,84948.0,7.0,False,-4.0
+Florida,21477737,267,874,False,-230.0,Apopka,53447.0,2.0,False,0.0
+Florida,21477737,267,874,False,-230.0,Palm Beach Gardens,57704.0,1.0,True,1.0
+Florida,21477737,267,874,False,-230.0,Sarasota,58285.0,13.0,False,-11.0
+Florida,21477737,267,874,False,-230.0,Pinellas Park,53637.0,4.0,False,-2.0
+Florida,21477737,267,874,False,-230.0,Bradenton,59439.0,9.0,False,-7.0
+Florida,21477737,267,874,False,-230.0,Bonita Springs,59637.0,3.0,False,-1.0
+Florida,21477737,267,874,False,-230.0,Ocala,60786.0,9.0,False,-7.0
+Florida,21477737,267,874,False,-230.0,Coconut Creek,61248.0,2.0,False,0.0
+Florida,21477737,267,874,False,-230.0,Margate,58796.0,2.0,False,0.0
+Georgia,10617423,149,348,False,-29.0,Warner Robins,77617.0,7.0,False,-5.0
+Georgia,10617423,149,348,False,-29.0,Smyrna,56666.0,4.0,False,-2.0
+Georgia,10617423,149,348,False,-29.0,Alpharetta,67213.0,8.0,False,-6.0
+Georgia,10617423,149,348,False,-29.0,Albany,72130.0,2.0,True,0.0
+Georgia,10617423,149,348,False,-29.0,Roswell,94763.0,5.0,False,-2.0
+Georgia,10617423,149,348,False,-29.0,Savannah,144464.0,13.0,False,-9.0
+Georgia,10617423,149,348,False,-29.0,Macon,153159.0,9.0,False,-4.0
+Georgia,10617423,149,348,False,-29.0,Columbus,195769.0,8.0,False,-2.0
+Georgia,10617423,149,348,False,-29.0,Augusta,197888.0,6.0,False,0.0
+Georgia,10617423,149,348,False,-29.0,Atlanta,506811.0,35.0,False,-20.0
+Georgia,10617423,149,348,False,-29.0,Valdosta,56457.0,1.0,True,1.0
+Georgia,10617423,149,348,False,-29.0,Athens,126913.0,7.0,False,-3.0
+Georgia,10617423,149,348,False,-29.0,Sandy Springs,109452.0,3.0,True,0.0
+Georgia,10617423,149,348,False,-29.0,Marietta,60867.0,13.0,False,-11.0
+Hawaii,1415872,30,71,False,-29.0,0,0.0,0.0,0,0.0
+Idaho,1787065,3,3,True,51.0,Twin Falls,50197.0,1.0,True,1.0
+Idaho,1787065,3,3,True,51.0,Nampa,99277.0,1.0,True,2.0
+Idaho,1787065,3,3,True,51.0,Boise,228959.0,1.0,True,6.0
+Illinois,12671821,210,389,False,-9.0,Naperville,148449.0,3.0,True,1.0
+Illinois,12671821,210,389,False,-9.0,Chicago,2693976.0,70.0,True,11.0
+Illinois,12671821,210,389,False,-9.0,Aurora,197757.0,4.0,True,2.0
+Illinois,12671821,210,389,False,-9.0,Joliet,147344.0,4.0,True,0.0
+Illinois,12671821,210,389,False,-9.0,Rockford,145609.0,8.0,False,-4.0
+Illinois,12671821,210,389,False,-9.0,Elgin,110849.0,2.0,True,1.0
+Illinois,12671821,210,389,False,-9.0,Champaign,88909.0,4.0,False,-1.0
+Illinois,12671821,210,389,False,-9.0,Springfield,114230.0,9.0,False,-6.0
+Illinois,12671821,210,389,False,-9.0,Bloomington,77330.0,2.0,True,0.0
+Illinois,12671821,210,389,False,-9.0,Evanston,73473.0,5.0,False,-3.0
+Illinois,12671821,210,389,False,-9.0,Decatur,70746.0,4.0,False,-2.0
+Illinois,12671821,210,389,False,-9.0,Wheaton,52745.0,3.0,False,-1.0
+Illinois,12671821,210,389,False,-9.0,Peoria,110417.0,7.0,False,-4.0
+Illinois,12671821,210,389,False,-9.0,Waukegan,86075.0,3.0,False,0.0
+Indiana,6732219,167,339,False,-137.0,Mishawaka,50363.0,2.0,False,0.0
+Indiana,6732219,167,339,False,-137.0,Gary,74879.0,1.0,True,1.0
+Indiana,6732219,167,339,False,-137.0,Elkhart,52358.0,4.0,False,-2.0
+Indiana,6732219,167,339,False,-137.0,Anderson,54765.0,4.0,False,-2.0
+Indiana,6732219,167,339,False,-137.0,Kokomo,58020.0,5.0,False,-3.0
+Indiana,6732219,167,339,False,-137.0,Terre Haute,60622.0,5.0,False,-3.0
+Indiana,6732219,167,339,False,-137.0,Muncie,67999.0,5.0,False,-3.0
+Indiana,6732219,167,339,False,-137.0,Greenwood,59458.0,4.0,False,-2.0
+Indiana,6732219,167,339,False,-137.0,West Lafayette,50996.0,2.0,False,0.0
+Indiana,6732219,167,339,False,-137.0,Fishers,95310.0,6.0,False,-3.0
+Indiana,6732219,167,339,False,-137.0,Carmel,101068.0,7.0,False,-4.0
+Indiana,6732219,167,339,False,-137.0,Lafayette,71721.0,6.0,False,-4.0
+Indiana,6732219,167,339,False,-137.0,South Bend,102026.0,7.0,False,-4.0
+Indiana,6732219,167,339,False,-137.0,Noblesville,64668.0,6.0,False,-4.0
+Indiana,6732219,167,339,False,-137.0,Indianapolis,876384.0,55.0,False,-29.0
+Indiana,6732219,167,339,False,-137.0,Hammond,75522.0,1.0,True,1.0
+Indiana,6732219,167,339,False,-137.0,Evansville,117979.0,18.0,False,-14.0
+Indiana,6732219,167,339,False,-137.0,Fort Wayne,270402.0,14.0,False,-6.0
+Indiana,6732219,167,339,False,-137.0,Bloomington,85755.0,8.0,False,-5.0
+Iowa,3155070,19,39,True,56.0,Dubuque,57882.0,1.0,True,1.0
+Iowa,3155070,19,39,True,56.0,Council Bluffs,62166.0,2.0,False,0.0
+Iowa,3155070,19,39,True,56.0,Ames,66258.0,2.0,False,0.0
+Iowa,3155070,19,39,True,56.0,Ankeny,67355.0,2.0,True,0.0
+Iowa,3155070,19,39,True,56.0,West Des Moines,67899.0,2.0,True,0.0
+Iowa,3155070,19,39,True,56.0,Davenport,101590.0,3.0,True,0.0
+Iowa,3155070,19,39,True,56.0,Des Moines,214237.0,4.0,True,2.0
+Iowa,3155070,19,39,True,56.0,Cedar Rapids,133562.0,6.0,False,-2.0
+Iowa,3155070,19,39,True,56.0,Waterloo,67328.0,3.0,False,-1.0
+Kansas,2913314,20,54,True,33.0,Overland Park,195494.0,11.0,False,-5.0
+Kansas,2913314,20,54,True,33.0,Topeka,125310.0,2.0,True,2.0
+Kansas,2913314,20,54,True,33.0,Lawrence,98193.0,3.0,False,0.0
+Kansas,2913314,20,54,True,33.0,Shawnee,65807.0,4.0,False,-2.0
+Kansas,2913314,20,54,True,33.0,Lenexa,55625.0,2.0,False,0.0
+Kansas,2913314,20,54,True,33.0,Manhattan,54604.0,1.0,True,1.0
+Kansas,2913314,20,54,True,33.0,Wichita,389938.0,7.0,True,5.0
+Kansas,2913314,20,54,True,33.0,Olathe,140545.0,5.0,False,-1.0
+Kentucky,4467673,45,81,True,53.0,Owensboro,60131.0,3.0,False,-1.0
+Kentucky,4467673,45,81,True,53.0,Bowling Green,70543.0,3.0,False,-1.0
+Kentucky,4467673,45,81,True,53.0,Lexington,323152.0,5.0,True,5.0
+Kentucky,4467673,45,81,True,53.0,Louisville,617638.0,22.0,False,-3.0
+Louisiana,4648794,58,135,True,4.0,New Orleans,390144.0,13.0,False,-1.0
+Louisiana,4648794,58,135,True,4.0,Lafayette,126185.0,11.0,False,-7.0
+Louisiana,4648794,58,135,True,4.0,Baton Rouge,220236.0,15.0,False,-8.0
+Louisiana,4648794,58,135,True,4.0,Lake Charles,78396.0,4.0,False,-2.0
+Louisiana,4648794,58,135,True,4.0,Kenner,66340.0,3.0,False,-1.0
+Louisiana,4648794,58,135,True,4.0,Shreveport,187112.0,9.0,False,-3.0
+Maine,1344212,18,25,True,15.0,Portland,66215.0,4.0,False,-2.0
+Maryland,6045680,111,231,False,-50.0,Bowie,58643.0,5.0,False,-3.0
+Maryland,6045680,111,231,False,-50.0,Gaithersburg,67985.0,6.0,False,-4.0
+Maryland,6045680,111,231,False,-50.0,Rockville,68079.0,10.0,False,-8.0
+Maryland,6045680,111,231,False,-50.0,Frederick,72244.0,7.0,False,-5.0
+Maryland,6045680,111,231,False,-50.0,Baltimore,593490.0,29.0,False,-11.0
+Massachusetts,6892503,217,416,False,-209.0,Quincy,94470.0,3.0,False,0.0
+Massachusetts,6892503,217,416,False,-209.0,Fall River,89541.0,4.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Somerville,81360.0,3.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,New Bedford,95363.0,4.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Boston,692600.0,27.0,False,-6.0
+Massachusetts,6892503,217,416,False,-209.0,Medford,57341.0,4.0,False,-2.0
+Massachusetts,6892503,217,416,False,-209.0,Taunton,57464.0,4.0,False,-2.0
+Massachusetts,6892503,217,416,False,-209.0,Malden,60470.0,3.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Waltham,62495.0,3.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Haverhill,64014.0,5.0,False,-3.0
+Massachusetts,6892503,217,416,False,-209.0,Framingham,74416.0,5.0,False,-3.0
+Massachusetts,6892503,217,416,False,-209.0,Brockton,95708.0,7.0,False,-4.0
+Massachusetts,6892503,217,416,False,-209.0,Peabody,53070.0,5.0,False,-3.0
+Massachusetts,6892503,217,416,False,-209.0,Lynn,94299.0,4.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Newton,88414.0,2.0,True,1.0
+Massachusetts,6892503,217,416,False,-209.0,Lowell,110997.0,5.0,False,-2.0
+Massachusetts,6892503,217,416,False,-209.0,Worcester,185428.0,10.0,False,-4.0
+Massachusetts,6892503,217,416,False,-209.0,Springfield,153606.0,6.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Cambridge,118927.0,6.0,False,-2.0
+Massachusetts,6892503,217,416,False,-209.0,Lawrence,80028.0,2.0,True,0.0
+Massachusetts,6892503,217,416,False,-209.0,Chicopee,55126.0,3.0,False,-1.0
+Massachusetts,6892503,217,416,False,-209.0,Revere,53073.0,2.0,False,0.0
+Michigan,9986857,136,301,False,-1.0,Dearborn Heights,55353.0,3.0,False,-1.0
+Michigan,9986857,136,301,False,-1.0,Pontiac,59438.0,1.0,True,1.0
+Michigan,9986857,136,301,False,-1.0,Rochester Hills,74516.0,5.0,False,-3.0
+Michigan,9986857,136,301,False,-1.0,Southfield,72689.0,7.0,False,-5.0
+Michigan,9986857,136,301,False,-1.0,Taylor,60922.0,4.0,False,-2.0
+Michigan,9986857,136,301,False,-1.0,Novi,60896.0,5.0,False,-3.0
+Michigan,9986857,136,301,False,-1.0,Battle Creek,51093.0,2.0,False,0.0
+Michigan,9986857,136,301,False,-1.0,Royal Oak,59277.0,3.0,False,-1.0
+Michigan,9986857,136,301,False,-1.0,Farmington Hills,80612.0,6.0,False,-4.0
+Michigan,9986857,136,301,False,-1.0,Saginaw,48115.0,1.0,True,0.0
+Michigan,9986857,136,301,False,-1.0,Kalamazoo,76200.0,2.0,True,0.0
+Michigan,9986857,136,301,False,-1.0,Wyoming,75667.0,4.0,False,-2.0
+Michigan,9986857,136,301,False,-1.0,Westland,81511.0,8.0,False,-6.0
+Michigan,9986857,136,301,False,-1.0,Grand Rapids,201013.0,6.0,True,0.0
+Michigan,9986857,136,301,False,-1.0,Warren,133943.0,8.0,False,-4.0
+Michigan,9986857,136,301,False,-1.0,Sterling Heights,132438.0,6.0,False,-2.0
+Michigan,9986857,136,301,False,-1.0,Detroit,670031.0,24.0,False,-4.0
+Michigan,9986857,136,301,False,-1.0,Lansing,118210.0,5.0,False,-1.0
+Michigan,9986857,136,301,False,-1.0,Dearborn,93932.0,6.0,False,-3.0
+Michigan,9986857,136,301,False,-1.0,Livonia,93665.0,6.0,False,-3.0
+Michigan,9986857,136,301,False,-1.0,Troy,84092.0,5.0,False,-2.0
+Michigan,9986857,136,301,False,-1.0,Ann Arbor,119980.0,7.0,False,-3.0
+Minnesota,5639632,78,133,True,36.0,Apple Valley,55135.0,4.0,False,-2.0
+Minnesota,5639632,78,133,True,36.0,Burnsville,61339.0,2.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Lakeville,67317.0,3.0,False,-1.0
+Minnesota,5639632,78,133,True,36.0,Eden Prairie,64893.0,2.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Edina,52857.0,2.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Minnetonka,54064.0,2.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Rochester,118935.0,2.0,True,2.0
+Minnesota,5639632,78,133,True,36.0,Plymouth,79768.0,3.0,False,-1.0
+Minnesota,5639632,78,133,True,36.0,Maple Grove,72622.0,2.0,True,0.0
+Minnesota,5639632,78,133,True,36.0,Minneapolis,429606.0,11.0,True,2.0
+Minnesota,5639632,78,133,True,36.0,Brooklyn Park,80389.0,2.0,True,0.0
+Minnesota,5639632,78,133,True,36.0,Bloomington,84943.0,2.0,True,1.0
+Minnesota,5639632,78,133,True,36.0,Duluth,85618.0,3.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Eagan,66372.0,2.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Woodbury,72828.0,4.0,False,-2.0
+Minnesota,5639632,78,133,True,36.0,Blaine,65607.0,2.0,False,0.0
+Minnesota,5639632,78,133,True,36.0,Coon Rapids,62998.0,4.0,False,-2.0
+Mississippi,2976149,40,57,True,32.0,Gulfport,71705.0,3.0,False,-1.0
+Mississippi,2976149,40,57,True,32.0,Southaven,55780.0,3.0,False,-1.0
+Mississippi,2976149,40,57,True,32.0,Jackson,160628.0,5.0,False,0.0
+Missouri,6137428,96,208,False,-24.0,Blue Springs,55829.0,4.0,False,-2.0
+Missouri,6137428,96,208,False,-24.0,Columbia,123195.0,2.0,True,2.0
+Missouri,6137428,96,208,False,-24.0,Independence,116672.0,6.0,False,-2.0
+Missouri,6137428,96,208,False,-24.0,Florissant,50952.0,8.0,False,-6.0
+Missouri,6137428,96,208,False,-24.0,Joplin,50925.0,2.0,False,0.0
+Missouri,6137428,96,208,False,-24.0,Springfield,167882.0,6.0,False,-1.0
+Montana,1068778,8,16,True,16.0,Billings,109577.0,6.0,False,-3.0
+Montana,1068778,8,16,True,16.0,Missoula,75516.0,2.0,True,0.0
+Montana,1068778,8,16,True,16.0,Great Falls,58434.0,1.0,True,1.0
+Nebraska,1934408,9,30,True,28.0,Lincoln,289102.0,9.0,False,0.0
+Nebraska,1934408,9,30,True,28.0,Bellevue,53544.0,2.0,False,0.0
+Nebraska,1934408,9,30,True,28.0,Grand Island,51267.0,1.0,True,1.0
+Nebraska,1934408,9,30,True,28.0,Omaha,478192.0,13.0,True,1.0
+Nevada,3080156,12,99,False,-7.0,Sparks,105006.0,5.0,False,-2.0
+Nevada,3080156,12,99,False,-7.0,North Las Vegas,251974.0,7.0,True,1.0
+Nevada,3080156,12,99,False,-7.0,Henderson,320189.0,13.0,False,-3.0
+Nevada,3080156,12,99,False,-7.0,Las Vegas,651319.0,53.0,False,-33.0
+Nevada,3080156,12,99,False,-7.0,Reno,255601.0,12.0,False,-4.0
+New Hampshire,1359711,32,47,False,-6.0,Nashua,89355.0,5.0,False,-2.0
+New Hampshire,1359711,32,47,False,-6.0,Manchester,112673.0,3.0,True,0.0
+New Jersey,8882190,248,348,False,-82.0,Hoboken,52677.0,3.0,False,-1.0
+New Jersey,8882190,248,348,False,-82.0,Newark,282011.0,2.0,True,6.0
+New Jersey,8882190,248,348,False,-82.0,Elizabeth,129216.0,3.0,True,1.0
+New Jersey,8882190,248,348,False,-82.0,Clifton,85052.0,4.0,False,-1.0
+New Jersey,8882190,248,348,False,-82.0,Trenton,83203.0,2.0,True,0.0
+New Jersey,8882190,248,348,False,-82.0,Vineland,59439.0,3.0,False,-1.0
+New Jersey,8882190,248,348,False,-82.0,Union,67982.0,4.0,False,-2.0
+New Jersey,8882190,248,348,False,-82.0,Bayonne,64897.0,1.0,True,1.0
+New Jersey,8882190,248,348,False,-82.0,East Orange,64367.0,1.0,True,1.0
+New Jersey,8882190,248,348,False,-82.0,Passaic,69703.0,1.0,True,1.0
+New Mexico,2096829,10,25,True,38.0,Albuquerque,560513.0,13.0,True,4.0
+New Mexico,2096829,10,25,True,38.0,Las Cruces,103432.0,2.0,True,1.0
+New Mexico,2096829,10,25,True,38.0,Rio Rancho,99178.0,1.0,True,2.0
+New Mexico,2096829,10,25,True,38.0,Santa Fe,84683.0,3.0,False,0.0
+New York,19453561,293,572,True,12.0,New York,8336817.0,59.0,True,191.0
+New York,19453561,293,572,True,12.0,Yonkers,200370.0,7.0,False,-1.0
+New York,19453561,293,572,True,12.0,Syracuse,142327.0,3.0,True,1.0
+New York,19453561,293,572,True,12.0,Albany,96460.0,8.0,False,-5.0
+New York,19453561,293,572,True,12.0,New Rochelle,78557.0,5.0,False,-3.0
+New York,19453561,293,572,True,12.0,Buffalo,255284.0,4.0,True,4.0
+New York,19453561,293,572,True,12.0,Mount Vernon,67345.0,3.0,False,-1.0
+New York,19453561,293,572,True,12.0,Schenectady,65273.0,7.0,False,-5.0
+New York,19453561,293,572,True,12.0,Niagara Falls,47720.0,2.0,False,-1.0
+New York,19453561,293,572,True,12.0,White Plains,58109.0,6.0,False,-4.0
+New York,19453561,293,572,True,12.0,Troy,49154.0,3.0,False,-2.0
+New York,19453561,293,572,True,12.0,Rochester,205695.0,12.0,False,-6.0
+North Carolina,10488084,170,369,False,-54.0,Asheville,92870.0,8.0,False,-5.0
+North Carolina,10488084,170,369,False,-54.0,Greenville,93400.0,4.0,False,-1.0
+North Carolina,10488084,170,369,False,-54.0,High Point,112791.0,4.0,False,-1.0
+North Carolina,10488084,170,369,False,-54.0,Wilmington,123744.0,10.0,False,-6.0
+North Carolina,10488084,170,369,False,-54.0,Fayetteville,211657.0,8.0,False,-2.0
+North Carolina,10488084,170,369,False,-54.0,Greensboro,296710.0,14.0,False,-5.0
+North Carolina,10488084,170,369,False,-54.0,Raleigh,474069.0,19.0,False,-5.0
+North Carolina,10488084,170,369,False,-54.0,Charlotte,885708.0,39.0,False,-12.0
+North Carolina,10488084,170,369,False,-54.0,Kannapolis,50841.0,1.0,True,1.0
+North Carolina,10488084,170,369,False,-54.0,Rocky Mount,53922.0,3.0,False,-1.0
+North Carolina,10488084,170,369,False,-54.0,Burlington,54606.0,3.0,False,-1.0
+North Carolina,10488084,170,369,False,-54.0,Durham,278993.0,10.0,False,-2.0
+North Carolina,10488084,170,369,False,-54.0,Concord,96341.0,5.0,False,-2.0
+North Carolina,10488084,170,369,False,-54.0,Gastonia,77273.0,6.0,False,-4.0
+North Carolina,10488084,170,369,False,-54.0,Jacksonville,72436.0,3.0,False,-1.0
+North Dakota,762062,4,6,True,17.0,Grand Forks,55839.0,1.0,True,1.0
+North Dakota,762062,4,6,True,17.0,Bismarck,73529.0,2.0,True,0.0
+North Dakota,762062,4,6,True,17.0,Fargo,124662.0,2.0,True,2.0
+Ohio,11689100,221,389,False,-38.0,Columbus,898553.0,34.0,False,-7.0
+Ohio,11689100,221,389,False,-38.0,Parma,78103.0,3.0,False,-1.0
+Ohio,11689100,221,389,False,-38.0,Cincinnati,303940.0,19.0,False,-10.0
+Ohio,11689100,221,389,False,-38.0,Toledo,272779.0,3.0,True,5.0
+Ohio,11689100,221,389,False,-38.0,Akron,197597.0,9.0,False,-3.0
+Ohio,11689100,221,389,False,-38.0,Dayton,140407.0,10.0,False,-6.0
+Ohio,11689100,221,389,False,-38.0,Canton,70447.0,2.0,True,0.0
+Ohio,11689100,221,389,False,-38.0,Lorain,63855.0,1.0,True,1.0
+Ohio,11689100,221,389,False,-38.0,Lakewood,49678.0,2.0,False,-1.0
+Ohio,11689100,221,389,False,-38.0,Newark,50315.0,3.0,False,-1.0
+Ohio,11689100,221,389,False,-38.0,Elyria,53757.0,2.0,False,0.0
+Ohio,11689100,221,389,False,-38.0,Youngstown,65469.0,1.0,True,1.0
+Ohio,11689100,221,389,False,-38.0,Kettering,54855.0,1.0,True,1.0
+Ohio,11689100,221,389,False,-38.0,Springfield,58877.0,3.0,False,-1.0
+Ohio,11689100,221,389,False,-38.0,Cleveland,381009.0,14.0,False,-3.0
+Ohio,11689100,221,389,False,-38.0,Hamilton,62082.0,4.0,False,-2.0
+Oklahoma,3956971,28,78,True,41.0,Enid,49688.0,1.0,True,0.0
+Oklahoma,3956971,28,78,True,41.0,Stillwater,50299.0,1.0,True,1.0
+Oklahoma,3956971,28,78,True,41.0,Moore,62055.0,3.0,False,-1.0
+Oklahoma,3956971,28,78,True,41.0,Lawton,93025.0,3.0,False,0.0
+Oklahoma,3956971,28,78,True,41.0,Edmond,94054.0,6.0,False,-3.0
+Oklahoma,3956971,28,78,True,41.0,Broken Arrow,110198.0,4.0,False,-1.0
+Oklahoma,3956971,28,78,True,41.0,Tulsa,401190.0,14.0,False,-2.0
+Oklahoma,3956971,28,78,True,41.0,Norman,124880.0,5.0,False,-1.0
+Oregon,4217737,14,22,True,105.0,Portland,654741.0,8.0,True,12.0
+Oregon,4217737,14,22,True,105.0,Salem,174365.0,1.0,True,4.0
+Oregon,4217737,14,22,True,105.0,Hillsboro,109128.0,1.0,True,2.0
+Oregon,4217737,14,22,True,105.0,Eugene,172622.0,1.0,True,4.0
+Oregon,4217737,14,22,True,105.0,Medford,83072.0,1.0,True,1.0
+Oregon,4217737,14,22,True,105.0,Tigard,55514.0,1.0,True,1.0
+Oregon,4217737,14,22,True,105.0,Albany,55338.0,1.0,True,1.0
+Oregon,4217737,14,22,True,105.0,Beaverton,99037.0,2.0,True,1.0
+Oregon,4217737,14,22,True,105.0,Springfield,63230.0,1.0,True,1.0
+Pennsylvania,12801989,278,487,False,-103.0,Scranton,76653.0,4.0,False,-2.0
+Pennsylvania,12801989,278,487,False,-103.0,Reading,88375.0,6.0,False,-3.0
+Pennsylvania,12801989,278,487,False,-103.0,Lancaster,59265.0,12.0,False,-10.0
+Pennsylvania,12801989,278,487,False,-103.0,Pittsburgh,300286.0,19.0,False,-10.0
+Pennsylvania,12801989,278,487,False,-103.0,Philadelphia,1584064.0,60.0,False,-12.0
+Pennsylvania,12801989,278,487,False,-103.0,Erie,95508.0,8.0,False,-5.0
+Pennsylvania,12801989,278,487,False,-103.0,Bethlehem,75815.0,6.0,False,-4.0
+Pennsylvania,12801989,278,487,False,-103.0,Allentown,121442.0,10.0,False,-6.0
+Puerto Rico,3193694,14,22,True,74.0,Carolina,170404.0,3.0,True,2.0
+Puerto Rico,3193694,14,22,True,74.0,Caguas,86804.0,1.0,True,2.0
+Puerto Rico,3193694,14,22,True,74.0,Ponce,152634.0,1.0,True,4.0
+Puerto Rico,3193694,14,22,True,74.0,Guaynabo,81360.0,2.0,True,0.0
+Puerto Rico,3193694,14,22,True,74.0,San Juan,418140.0,3.0,True,10.0
+Puerto Rico,3193694,14,22,True,74.0,Bayamon,203499.0,4.0,True,2.0
+Rhode Island,1059361,33,66,False,-34.0,Providence,179883.0,8.0,False,-3.0
+Rhode Island,1059361,33,66,False,-34.0,Cranston,81456.0,5.0,False,-3.0
+Rhode Island,1059361,33,66,False,-34.0,Warwick,81004.0,6.0,False,-4.0
+Rhode Island,1059361,33,66,False,-34.0,Pawtucket,72117.0,3.0,False,-1.0
+South Carolina,5148714,101,212,False,-58.0,Columbia,131674.0,17.0,False,-13.0
+South Carolina,5148714,101,212,False,-58.0,Rock Hill,75048.0,4.0,False,-2.0
+South Carolina,5148714,101,212,False,-58.0,Greenville,70635.0,12.0,False,-10.0
+South Carolina,5148714,101,212,False,-58.0,Charleston,137566.0,10.0,False,-6.0
+South Carolina,5148714,101,212,False,-58.0,North Charleston,115382.0,4.0,False,-1.0
+South Dakota,884659,2,3,True,24.0,Sioux Falls,183793.0,2.0,True,4.0
+Tennessee,6829174,78,161,True,44.0,Bartlett,59440.0,1.0,True,1.0
+Tennessee,6829174,78,161,True,44.0,Nashville,670820.0,13.0,True,7.0
+Tennessee,6829174,78,161,True,44.0,Murfreesboro,146900.0,4.0,True,0.0
+Tennessee,6829174,78,161,True,44.0,Franklin,83097.0,5.0,False,-3.0
+Tennessee,6829174,78,161,True,44.0,Kingsport,54127.0,5.0,False,-3.0
+Tennessee,6829174,78,161,True,44.0,Memphis,651073.0,9.0,True,11.0
+Tennessee,6829174,78,161,True,44.0,Chattanooga,182799.0,11.0,False,-6.0
+Tennessee,6829174,78,161,True,44.0,Jackson,67191.0,2.0,True,0.0
+Tennessee,6829174,78,161,True,44.0,Hendersonville,58113.0,2.0,False,0.0
+Tennessee,6829174,78,161,True,44.0,Knoxville,187603.0,16.0,False,-10.0
+Texas,28995881,280,843,True,27.0,Georgetown,79604.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Pearland,122460.0,6.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Pharr,79112.0,1.0,True,1.0
+Texas,28995881,280,843,True,27.0,Lewisville,109212.0,5.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Wichita Falls,104683.0,2.0,True,1.0
+Texas,28995881,280,843,True,27.0,Tyler,106985.0,5.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Allen,105623.0,6.0,False,-3.0
+Texas,28995881,280,843,True,27.0,San Angelo,101004.0,2.0,True,1.0
+Texas,28995881,280,843,True,27.0,New Braunfels,90209.0,4.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Temple,78439.0,2.0,True,0.0
+Texas,28995881,280,843,True,27.0,Grand Prairie,194543.0,5.0,True,1.0
+Texas,28995881,280,843,True,27.0,Baytown,77192.0,4.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Brownsville,182781.0,5.0,True,0.0
+Texas,28995881,280,843,True,27.0,Pasadena,151227.0,4.0,True,1.0
+Texas,28995881,280,843,True,27.0,Denton,141541.0,4.0,True,0.0
+Texas,28995881,280,843,True,27.0,Mesquite,140937.0,4.0,True,0.0
+Texas,28995881,280,843,True,27.0,Carrollton,139248.0,5.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Waco,139236.0,3.0,True,1.0
+Texas,28995881,280,843,True,27.0,Round Rock,133372.0,6.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Bryan,86276.0,2.0,True,1.0
+Texas,28995881,280,843,True,27.0,Mission,84331.0,3.0,False,0.0
+Texas,28995881,280,843,True,27.0,North Richland Hills,70670.0,2.0,True,0.0
+Texas,28995881,280,843,True,27.0,Longview,81631.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Killeen,151666.0,2.0,True,3.0
+Texas,28995881,280,843,True,27.0,Euless,57197.0,1.0,True,1.0
+Texas,28995881,280,843,True,27.0,Sugar Land,118488.0,3.0,True,1.0
+Texas,28995881,280,843,True,27.0,Wylie,53067.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Rowlett,67339.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,College Station,117911.0,4.0,False,0.0
+Texas,28995881,280,843,True,27.0,Laredo,262491.0,5.0,True,3.0
+Texas,28995881,280,843,True,27.0,Corpus Christi,326586.0,12.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Arlington,398854.0,11.0,True,1.0
+Texas,28995881,280,843,True,27.0,El Paso,681728.0,13.0,True,7.0
+Texas,28995881,280,843,True,27.0,Victoria,66916.0,2.0,True,0.0
+Texas,28995881,280,843,True,27.0,Odessa,123334.0,5.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Dallas,1343573.0,53.0,False,-13.0
+Texas,28995881,280,843,True,27.0,San Antonio,1547253.0,57.0,False,-11.0
+Texas,28995881,280,843,True,27.0,Houston,2320268.0,91.0,False,-21.0
+Texas,28995881,280,843,True,27.0,Frisco,200490.0,8.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Fort Worth,909585.0,26.0,True,1.0
+Texas,28995881,280,843,True,27.0,Plano,287677.0,15.0,False,-6.0
+Texas,28995881,280,843,True,27.0,Austin,978908.0,32.0,False,-3.0
+Texas,28995881,280,843,True,27.0,Pflugerville,65380.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Harlingen,65022.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,San Marcos,64776.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Little Elm,53126.0,1.0,True,1.0
+Texas,28995881,280,843,True,27.0,Abilene,123420.0,3.0,True,1.0
+Texas,28995881,280,843,True,27.0,Midland,146038.0,4.0,True,0.0
+Texas,28995881,280,843,True,27.0,Amarillo,199371.0,5.0,True,1.0
+Texas,28995881,280,843,True,27.0,Irving,239798.0,8.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Garland,239928.0,6.0,True,1.0
+Texas,28995881,280,843,True,27.0,Lubbock,258862.0,11.0,False,-3.0
+Texas,28995881,280,843,True,27.0,Beaumont,116825.0,5.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Cedar Park,79462.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Conroe,91079.0,4.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Port Arthur,54280.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Grapevine,55281.0,4.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Richardson,121323.0,6.0,False,-2.0
+Texas,28995881,280,843,True,27.0,Leander,62608.0,1.0,True,1.0
+Texas,28995881,280,843,True,27.0,Mansfield,72419.0,5.0,False,-3.0
+Texas,28995881,280,843,True,27.0,Galveston,50446.0,3.0,False,-1.0
+Texas,28995881,280,843,True,27.0,Edinburg,101170.0,3.0,True,0.0
+Utah,3205958,17,29,True,67.0,Orem,97828.0,1.0,True,2.0
+Utah,3205958,17,29,True,67.0,Provo,116618.0,1.0,True,2.0
+Utah,3205958,17,29,True,67.0,Herriman,51348.0,1.0,True,1.0
+Utah,3205958,17,29,True,67.0,Ogden,87773.0,1.0,True,2.0
+Utah,3205958,17,29,True,67.0,West Jordan,116480.0,3.0,True,0.0
+Utah,3205958,17,29,True,67.0,Sandy,96380.0,3.0,False,0.0
+Utah,3205958,17,29,True,67.0,Layton,78014.0,2.0,True,0.0
+Utah,3205958,17,29,True,67.0,South Jordan,76598.0,2.0,True,0.0
+Vermont,623989,9,9,True,10.0,0,0.0,0.0,0,0.0
+Virginia,8535519,126,353,False,-97.0,Alexandria,159428.0,19.0,False,-14.0
+Virginia,8535519,126,353,False,-97.0,Newport News,179225.0,4.0,True,1.0
+Virginia,8535519,126,353,False,-97.0,Richmond,230436.0,30.0,False,-23.0
+Virginia,8535519,126,353,False,-97.0,Harrisonburg,53016.0,4.0,False,-2.0
+Virginia,8535519,126,353,False,-97.0,Lynchburg,82168.0,6.0,False,-4.0
+Virginia,8535519,126,353,False,-97.0,Roanoke,99143.0,8.0,False,-5.0
+Virginia,8535519,126,353,False,-97.0,Portsmouth,94398.0,3.0,False,0.0
+Virginia,8535519,126,353,False,-97.0,Hampton,134510.0,4.0,True,0.0
+Virginia,8535519,126,353,False,-97.0,Chesapeake,244835.0,6.0,True,1.0
+Virginia,8535519,126,353,False,-97.0,Norfolk,242742.0,7.0,True,0.0
+Virginia,8535519,126,353,False,-97.0,Suffolk,92108.0,1.0,True,2.0
+Virginia,8535519,126,353,False,-97.0,Virginia Beach,449974.0,13.0,True,0.0
+Washington,7614893,29,45,True,183.0,Bellevue,148164.0,1.0,True,3.0
+Washington,7614893,29,45,True,183.0,Vancouver,184463.0,2.0,True,4.0
+Washington,7614893,29,45,True,183.0,Marysville,70298.0,1.0,True,1.0
+Washington,7614893,29,45,True,183.0,Tacoma,217827.0,1.0,True,6.0
+Washington,7614893,29,45,True,183.0,Spokane,222081.0,2.0,True,5.0
+Washington,7614893,29,45,True,183.0,Kent,132319.0,1.0,True,3.0
+Washington,7614893,29,45,True,183.0,Lakewood,61037.0,2.0,False,0.0
+Washington,7614893,29,45,True,183.0,Everett,111475.0,2.0,True,1.0
+Washington,7614893,29,45,True,183.0,Renton,101751.0,2.0,True,1.0
+Washington,7614893,29,45,True,183.0,Federal Way,96289.0,2.0,True,1.0
+Washington,7614893,29,45,True,183.0,Seattle,753675.0,9.0,True,14.0
+Washington,7614893,29,45,True,183.0,Kennewick,84347.0,1.0,True,2.0
+Washington,7614893,29,45,True,183.0,Redmond,71929.0,1.0,True,1.0
+Washington,7614893,29,45,True,183.0,Richland,58225.0,1.0,True,1.0
+Washington,7614893,29,45,True,183.0,Burien,51500.0,1.0,True,1.0
+Washington,7614893,29,45,True,183.0,Lacey,52592.0,1.0,True,1.0
+Washington,7614893,29,45,True,183.0,Olympia,52882.0,1.0,True,1.0
+Washington,7614893,29,45,True,183.0,Bellingham,92314.0,1.0,True,2.0
+West Virginia,1792147,41,57,False,-3.0,Charleston,46536.0,3.0,False,-2.0
+Wisconsin,5822434,47,82,True,93.0,Kenosha,99944.0,3.0,False,0.0
+Wisconsin,5822434,47,82,True,93.0,Green Bay,104578.0,6.0,False,-3.0
+Wisconsin,5822434,47,82,True,93.0,Madison,259680.0,5.0,True,3.0
+Wisconsin,5822434,47,82,True,93.0,Milwaukee,590157.0,8.0,True,10.0
+Wisconsin,5822434,47,82,True,93.0,Waukesha,72299.0,3.0,False,-1.0
+Wisconsin,5822434,47,82,True,93.0,Janesville,64575.0,3.0,False,-1.0
+Wisconsin,5822434,47,82,True,93.0,Oshkosh,67004.0,2.0,True,0.0
+Wisconsin,5822434,47,82,True,93.0,West Allis,59890.0,3.0,False,-1.0
+Wisconsin,5822434,47,82,True,93.0,Appleton,74098.0,4.0,False,-2.0
+Wisconsin,5822434,47,82,True,93.0,Racine,76760.0,2.0,True,0.0
+Wisconsin,5822434,47,82,True,93.0,Eau Claire,68802.0,2.0,True,0.0
+Wyoming,578759,2,2,True,15.0,Cheyenne,64235.0,1.0,True,1.0
+Wyoming,578759,2,2,True,15.0,Casper,57931.0,1.0,True,1.0
