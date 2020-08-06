@@ -1,0 +1,122 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# SETUP
+```{r}
+library(tidyverse)
+
+setwd('C:/Users/moth1/OneDrive/Documents/dsa-projects/2-shiny-app')
+```
+
+# LOAD FILES
+```{r}
+csv_filenames = list.files("./data", pattern = "*.csv")
+csv_filepaths = paste('./data', csv_filenames, sep = '/')
+
+data_length = length(csv_filepaths)
+dflist = rep(list(1), data_length)
+
+for (i in 1:data_length){
+
+  dflist[[i]] = read.csv(csv_filepaths[i])
+}
+
+# For reference:
+# 1: 2014, 2: 2016, 3: 2017, 4: 2018, 5: 2019
+```
+
+# DATA WRANGLING
+
+## Keyword Functions
+```{r}
+verify = function(keyword) {
+  print(keyword)
+  x <- grep(keyword, qs, ignore.case=TRUE)
+  if (length(x)!=5){
+    warning("keyword not present in all years\n")
+    return(FALSE)
+  } 
+  x = lapply(qs, grep, pattern=keyword, ignore.case=TRUE)
+  if (sum(unlist(lapply(x, length)))>5){
+    warning("keyword present more than once in a year\n")
+    return(FALSE)
+  }
+  warning("keyword is a match!\n")
+  return(TRUE)
+}
+
+keyword.locs = function(keyword, df) {
+  qs = names(df)
+  key.loc = grep(keyword, qs, ignore.case=TRUE)
+  return(key.loc)
+}
+```
+
+## Verify and Find Qs
+```{r include=FALSE}
+qs = lapply(dflist, names)
+map.qs.1 = lapply(qs[[1]], verify)
+map.qs.1 = unlist(map.qs.1)
+verified.qs = qs[[1]][map.qs.1]
+```
+
+## Apply Qs to select data (once)
+```{r}
+# y = unlist(keyword.locs("gender"))
+# # ^rewrote above function for modularity
+# z = data.frame()
+# # names(z) = "gender"
+# for (i in 1:data_length){
+#   new.col = dflist[[i]] %>%
+#     select(y[i])
+#   names(new.col) = "gender"
+#   z = bind_rows(z, new.col)
+}
+```
+
+## Apply Qs to select data (loop)
+```{r}
+z = data.frame()
+for (i in 1:data_length){
+  #for each data frame
+  df = dflist[[i]]
+  new.table = data.frame()
+  
+  for (j in 1:length(verified.qs)){
+    #for each question
+    
+    #unpack the question
+    q = verified.qs[j]
+    
+    #find loc in current table
+    q.loc = keyword.locs(q, df)
+    
+    #add to temp data frame
+    new.col = select(df, q.loc)
+    new.col[] = lapply(new.col, as.character)
+    names(new.col) = tolower(q)
+    
+    #special case for j = 1
+    if (j==1){
+      new.table = new.col
+    } else{
+      new.table = bind_cols(new.table, new.col)
+    }
+  }
+  #append to main dataframe
+  z = bind_rows(z, new.table)
+}
+
+```
+
+## Visualizations
+```{r}
+barplot(table(z$gender))
+barplot(table(z$does.your.employer.provide.mental.health.benefits.))
+barplot(table(z$are.you.self.employed.))
+barplot(table(z$how.many.employees.does.your.company.or.organization.have.))
+barplot(table(z$do.you.have.a.family.history.of.mental.illness.))
+```
+
