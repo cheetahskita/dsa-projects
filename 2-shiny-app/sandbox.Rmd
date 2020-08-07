@@ -19,34 +19,91 @@ data_length = length(csv_filepaths)
 dflist = rep(list(1), data_length)
 
 for (i in 1:data_length){
-
   dflist[[i]] = read.csv(csv_filepaths[i])
 }
-
+backup = dflist
 # For reference:
 # 1: 2014, 2: 2016, 3: 2017, 4: 2018, 5: 2019
 ```
 
 # DATA WRANGLING
 
-## Keyword Functions
+## Data Preparation
+
+### Cleaning Variable Names (Questions)
+```{r}
+dflist = backup
+clean.qs = function(df){
+  qs = names(df)
+  qs = lapply(qs, gsub, pattern='\\.strong\\.', replacement='.')
+  qs = lapply(qs, gsub, pattern='\\.em\\.', replacement='.')
+  qs = lapply(qs, gsub, pattern='\\._\\.', replacement='.')
+  qs = lapply(qs, gsub, pattern='^X.', replacement='')
+  qs = lapply(qs, gsub, pattern='\\.\\.\\.\\.', replacement='.')
+  qs = lapply(qs, gsub, pattern='\\.\\.\\.', replacement='.')
+  qs = lapply(qs, gsub, pattern='\\.\\.', replacement='.')
+  names(df) = qs
+  return(df)
+}
+dflist = lapply(dflist, clean.qs)
+```
+
+### Manual Pre-processing
+```{r}
+colnames(dflist[[1]])[2] <- "what.is.your.age."
+colnames(dflist[[1]])[4] <- "what.country.do.you.work.in."
+colnames(dflist[[1]])[9] <- "if.you.have.a.mental.health.issue.do.you.feel.that.it.interferes.with.your.work.when.NOT.being.treated.effectively."
+qs = lapply(dflist, names)
+```
+
+### Functions to Verify Keywords/Questions
 ```{r}
 verify = function(keyword) {
-  print(keyword)
-  x <- grep(keyword, qs, ignore.case=TRUE)
-  if (length(x)!=5){
-    warning("keyword not present in all years\n")
-    return(FALSE)
-  } 
-  x = lapply(qs, grep, pattern=keyword, ignore.case=TRUE)
-  if (sum(unlist(lapply(x, length)))>5){
-    warning("keyword present more than once in a year\n")
-    return(FALSE)
+  cat(c("\n","\"", keyword, "\"", "\n"))
+  cat("-----------------------\n")
+  q.list <- grep(keyword, qs, ignore.case=TRUE)
+  q.locs <- lapply(qs, grep, pattern=keyword, ignore.case=TRUE)  
+  if (length(q.list)!=5){
+    warning("Warning! Keyword not present in all years.")
+    
+  } else if (sum(unlist(lapply(q.locs, length)))>5){
+    warning("Warning! Keyword present more than once in a year.")
+    
+  } else{
+    warning("Keyword is a match!")
   }
-  warning("keyword is a match!\n")
-  return(TRUE)
+  warning(" These are the matching questions:\n")
+  print.qs(q.locs)
 }
+print.qs = function(q.locs){
+  for (i in 1:5){
+    for (j in 1:length(q.locs[[i]]))
+    cat( c('List ',i,', ',
+           'col ', q.locs[[i]][j], ': ',
+           pluck(qs, i, q.locs[[i]][j]),
+           '\n'), sep = "")
+  }
+}
+```
 
+### Manual Verification of Each Keyword/Questions
+```{r}
+verify("what.is.your.age.")
+verify("gender")
+verify("what.country.do.you.work.in.")
+verify("family.history.of.mental.illness.")
+verify("sought.treatment.")
+verify("interferes.with.your.work.when.not.")
+verify("how.many.employees.")
+verify("is.your.employer.primarily.a.tech.company.")
+verify("employer.provide.mental.health.benefits.")
+verify("do.you.know.the.options.for.mental.health.")
+```
+
+## Data Loading
+
+### Helpful Function to Find Variables Indixces
+```{r}
 keyword.locs = function(keyword, df) {
   qs = names(df)
   key.loc = grep(keyword, qs, ignore.case=TRUE)
@@ -54,46 +111,38 @@ keyword.locs = function(keyword, df) {
 }
 ```
 
-## Verify and Find Qs
-```{r include=FALSE}
-qs = lapply(dflist, names)
-map.qs.1 = lapply(qs[[1]], verify)
-map.qs.1 = unlist(map.qs.1)
-verified.qs = qs[[1]][map.qs.1]
+### Manually Define Keywords
+```{r}
+verified.qs = list("what.is.your.age.",
+                   "gender",
+                   "what.country.do.you.work.in.",
+                   "family.history.of.mental.illness.",
+                   "sought.treatment.",
+                   "interferes.with.your.work.when.not.",
+                   "how.many.employees.",
+                   "is.your.employer.primarily.a.tech.company.",
+                   "employer.provide.mental.health.benefits.",
+                   "do.you.know.the.options.for.mental.health.")
 ```
 
-## Apply Qs to select data (once)
+### Build Data Frame from Keywords
 ```{r}
-# y = unlist(keyword.locs("gender"))
-# # ^rewrote above function for modularity
-# z = data.frame()
-# # names(z) = "gender"
-# for (i in 1:data_length){
-#   new.col = dflist[[i]] %>%
-#     select(y[i])
-#   names(new.col) = "gender"
-#   z = bind_rows(z, new.col)
-}
-```
+df.tot = data.frame()
 
-## Apply Qs to select data (loop)
-```{r}
-z = data.frame()
-for (i in 1:data_length){
-  #for each data frame
+for (i in 1:data_length){   #for each data frame
+  
   df = dflist[[i]]
   new.table = data.frame()
   
-  for (j in 1:length(verified.qs)){
-    #for each question
+  for (j in 1:length(verified.qs)){   #for each question
     
     #unpack the question
     q = verified.qs[j]
     
-    #find loc in current table
+    #find index in current table
     q.loc = keyword.locs(q, df)
     
-    #add to temp data frame
+    #extract question to new data frame
     new.col = select(df, q.loc)
     new.col[] = lapply(new.col, as.character)
     names(new.col) = tolower(q)
@@ -105,18 +154,40 @@ for (i in 1:data_length){
       new.table = bind_cols(new.table, new.col)
     }
   }
-  #append to main dataframe
-  z = bind_rows(z, new.table)
+  #append to main data frame
+  df.tot = bind_rows(df.tot, new.table)
 }
-
+df.tot = as.data.frame(sapply(df.tot, tolower))
+backup2 = df.tot
 ```
 
-## Visualizations
+### Data Cleaning (Elements)
 ```{r}
-barplot(table(z$gender))
-barplot(table(z$does.your.employer.provide.mental.health.benefits.))
-barplot(table(z$are.you.self.employed.))
-barplot(table(z$how.many.employees.does.your.company.or.organization.have.))
-barplot(table(z$do.you.have.a.family.history.of.mental.illness.))
+# RESERVED FOR CLEANING UP COLUMNS
+
+
+# TO DO LIST:
+# select age > 0 and <100
+# filter gender into 5 categories
+# group countries as continents? downsample to US/UK?
+# filter sought.treatment, interferes.with, employer.tech, employer.provide, know.options
+# # from 0/1, yes/no, true/false into only yes/no as.factor
+# group number of employees and order as.factor
+```
+
+
+# DATA VISUALIZATION
+
+## EDA Bar Charts
+```{r}
+for (i in 1:length(verified.qs)){
+  q = verified.qs[[i]]
+  barplot(table(df.tot[q]), main = q)
+}
+```
+
+# OUTPUT FILES
+```{r}
+write_csv(df.tot, "dashboard.csv")
 ```
 
