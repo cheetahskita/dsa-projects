@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "Data Wrangling"
 output: html_notebook
 ---
 
@@ -11,19 +11,20 @@ setwd('C:/Users/moth1/OneDrive/Documents/dsa-projects/2-shiny-app')
 ```
 
 # LOAD FILES
-```{r}
+```{r warning=FALSE, include=FALSE}
 csv_filenames = list.files("./data", pattern = "*.csv")
 csv_filepaths = paste('./data', csv_filenames, sep = '/')
 
 data_length = length(csv_filepaths)
 dflist = rep(list(1), data_length)
 
+years = c(2014, 2016, 2017, 2018, 2019)
 for (i in 1:data_length){
-  dflist[[i]] = read.csv(csv_filepaths[i])
+  df = read.csv(csv_filepaths[i])
+  year = data.frame(year = rep(years[i], dim(df)[1]))
+  dflist[[i]] = bind_cols(year, df)
 }
 backup = dflist
-# For reference:
-# 1: 2014, 2: 2016, 3: 2017, 4: 2018, 5: 2019
 ```
 
 # DATA WRANGLING
@@ -50,9 +51,9 @@ dflist = lapply(dflist, clean.qs)
 
 ### Manual Pre-processing
 ```{r}
-colnames(dflist[[1]])[2] <- "what.is.your.age."
-colnames(dflist[[1]])[4] <- "what.country.do.you.work.in."
-colnames(dflist[[1]])[9] <- "if.you.have.a.mental.health.issue.do.you.feel.that.it.interferes.with.your.work.when.NOT.being.treated.effectively."
+colnames(dflist[[1]])[3] <- "what.is.your.age."
+colnames(dflist[[1]])[5] <- "what.country.do.you.work.in."
+colnames(dflist[[1]])[10] <- "if.you.have.a.mental.health.issue.do.you.feel.that.it.interferes.with.your.work.when.NOT.being.treated.effectively."
 qs = lapply(dflist, names)
 ```
 
@@ -88,6 +89,7 @@ print.qs = function(q.locs){
 
 ### Manual Verification of Each Keyword/Questions
 ```{r}
+verify("year")
 verify("what.is.your.age.")
 verify("gender")
 verify("what.country.do.you.work.in.")
@@ -113,7 +115,8 @@ keyword.locs = function(keyword, df) {
 
 ### Manually Define Keywords
 ```{r}
-verified.qs = list("what.is.your.age.",
+verified.qs = list("year",
+                   "what.is.your.age.",
                    "gender",
                    "what.country.do.you.work.in.",
                    "family.history.of.mental.illness.",
@@ -165,9 +168,17 @@ backup2 = df.tot
 ```{r}
 # RESERVED FOR CLEANING UP COLUMNS
 
+df.tot$year = as.factor(df.tot$year)
+df.tot = df.tot %>% 
+  rename(age = what.is.your.age.)
+
+df.tot$age[(df.tot$age < 18) | (df.tot$age > 75)] = NA
+
+df.tot = df.tot %>% 
+  replace_na(list(age = median(df.tot$age, na.rm=TRUE)))
 
 # TO DO LIST:
-# select age > 0 and <100
+
 # filter gender into 5 categories
 # group countries as continents? downsample to US/UK?
 # filter sought.treatment, interferes.with, employer.tech, employer.provide, know.options
@@ -188,6 +199,6 @@ for (i in 1:length(verified.qs)){
 
 # OUTPUT FILES
 ```{r}
-write_csv(df.tot, "dashboard.csv")
+write_csv(df.tot, "server.csv")
 ```
 
