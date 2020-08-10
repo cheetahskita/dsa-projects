@@ -4,7 +4,7 @@ output: html_notebook
 ---
 
 # SETUP
-```{r}
+```{r include=FALSE}
 library(tidyverse)
 
 setwd('C:/Users/moth1/OneDrive/Documents/dsa-projects/2-shiny-app')
@@ -20,7 +20,7 @@ dflist = rep(list(1), data_length)
 
 years = c(2014, 2016, 2017, 2018, 2019)
 for (i in 1:data_length){
-  df = read.csv(csv_filepaths[i])
+  df = read.csv(csv_filepaths[i], na.strings=c("n/a","N/A",""))
   year = data.frame(year = rep(years[i], dim(df)[1]))
   dflist[[i]] = bind_cols(year, df)
 }
@@ -54,6 +54,9 @@ dflist = lapply(dflist, clean.qs)
 colnames(dflist[[1]])[3] <- "what.is.your.age."
 colnames(dflist[[1]])[5] <- "what.country.do.you.work.in."
 colnames(dflist[[1]])[10] <- "if.you.have.a.mental.health.issue.do.you.feel.that.it.interferes.with.your.work.when.NOT.being.treated.effectively."
+#interpolate from other columns
+dflist[[1]]["currently.have."] = ifelse((dflist[[1]][8] == "Yes")
+                                        | (dflist[[1]][9] == "Yes"), "yes", "no")
 qs = lapply(dflist, names)
 ```
 
@@ -89,17 +92,19 @@ print.qs = function(q.locs){
 
 ### Manual Verification of Each Keyword/Questions
 ```{r}
-verify("year")
-verify("what.is.your.age.")
-verify("gender")
-verify("what.country.do.you.work.in.")
-verify("family.history.of.mental.illness.")
-verify("sought.treatment.")
-verify("interferes.with.your.work.when.not.")
-verify("how.many.employees.")
-verify("is.your.employer.primarily.a.tech.company.")
-verify("employer.provide.mental.health.benefits.")
-verify("do.you.know.the.options.for.mental.health.")
+# verify("year")
+# verify("what.is.your.age.")
+# verify("gender")
+# verify("what.country.do.you.work.in.")
+# verify("currently.have")
+# verify("family.history.of.mental.illness.")
+# verify("sought.treatment.")
+# verify("interferes.with.your.work.when.not.")
+# verify("how.many.employees.")
+# verify("is.your.employer.primarily.a.tech.company.")
+# verify("employer.provide.mental.health.benefits.")
+# verify("do.you.know.the.options.for.mental.health.")
+verify("disc.*a.mental.health.*.with.your.coworkers.")
 ```
 
 ## Data Loading
@@ -116,14 +121,16 @@ keyword.locs = function(keyword, df) {
 ### Manually Define Keywords
 ```{r}
 verified.qs = list("year",
+                   "what.country.do.you.work.in.",
                    "what.is.your.age.",
                    "gender",
-                   "what.country.do.you.work.in.",
+                   "currently.have.",
+                   "is.your.employer.primarily.a.tech.company.",
+                   "how.many.employees.",
                    "family.history.of.mental.illness.",
                    "sought.treatment.",
                    "interferes.with.your.work.when.not.",
-                   "how.many.employees.",
-                   "is.your.employer.primarily.a.tech.company.",
+                   "disc.*a.mental.health.*.with.your.coworkers.",
                    "employer.provide.mental.health.benefits.",
                    "do.you.know.the.options.for.mental.health.")
 ```
@@ -164,38 +171,174 @@ df.tot = as.data.frame(sapply(df.tot, tolower))
 backup2 = df.tot
 ```
 
+### Pre-Data Cleaning EDA
+```{r}
+headers = names(df.tot)
+for (i in 1:length(headers)){
+  q = headers[[i]]
+  barplot(table(df.tot[q]), main = q)
+}
+```
+
 ### Data Cleaning (Elements)
 ```{r}
-# RESERVED FOR CLEANING UP COLUMNS
+df.tot = backup2
 
+#rename columns
+df.tot = df.tot %>% 
+  rename(age = what.is.your.age.,
+         country = what.country.do.you.work.in.,
+         tech.company = is.your.employer.primarily.a.tech.company.,
+         number.employees = how.many.employees.,
+         mental.illness = currently.have.,
+         family.history = family.history.of.mental.illness.,
+         interferes.with.work = interferes.with.your.work.when.not.,
+         comfortable.discussing = "disc.*a.mental.health.*.with.your.coworkers.",
+         employer.provide.benefits = employer.provide.mental.health.benefits.,
+         know.mental.health.options = do.you.know.the.options.for.mental.health.)
+
+#handle missing data
+df.tot = df.tot %>% 
+  replace_na(list(age = median(df.tot$age, na.rm=TRUE),
+                  gender = "non-binary",
+                  tech.company = "yes",
+                  number.employees = "self-employed"))
+
+#handle redundant character responses
+df.tot$country[df.tot$country=="united states"] = "united states of america"
+df.tot = replace(df.tot, (df.tot==0) | (df.tot=="false") | (df.tot=="never"), "no")
+df.tot = replace(df.tot, (df.tot==1) | (df.tot=="true") | (df.tot=="often") | (df.tot=="maybe")
+                 | (df.tot=="rarely") | (df.tot=="sometimes") | (df.tot=="some of them"), "yes")
+df.tot = map_df(df.tot, str_replace_all,
+                pattern = "not eligible for coverage.*",
+                replacement = "not eligible")
+df.tot = map_df(df.tot, str_replace_all,
+                pattern = "i don't know|don't know",
+                replacement = "not sure")
+df.tot = map_df(df.tot, str_replace_all,
+                pattern = "i am not sure",
+                replacement = "not sure")
+df.tot = map_df(df.tot, str_replace_all,
+                pattern = "not applicable",
+                replacement = NA_character_)
+
+#handle incorrect survey responses
+df.tot$interferes.with.work[(df.tot$mental.illness=="yes") & (is.na(df.tot$interferes.with.work))] = "no"
+
+gender = df.tot$gender
+gender[str_detect(gender, "trans|fluid|queer|non|bi")] = "non-binary"
+gender[str_detect(gender, "(?<!fe)male|^ma*.|^m$|dude")] = "male"
+gender[str_detect(gender, "femal|woman|fem|^f$|she")] = "female"
+gender[(gender!="male") & (gender!="female")] = "non-binary"
+df.tot$gender = gender
+
+#convert character variables to numeric/factors
 df.tot$year = as.factor(df.tot$year)
-df.tot = df.tot %>% 
-  rename(age = what.is.your.age.)
-
+df.tot$age = as.numeric(df.tot$age)
 df.tot$age[(df.tot$age < 18) | (df.tot$age > 75)] = NA
+df.tot$number.employees = factor(df.tot$number.employees,
+                                 levels = c('self-employed','1-5','6-25','26-100','100-500','500-1000','more than 1000'),
+                                 ordered = TRUE)
+levels(df.tot$number.employees) = c('self-employed','1-25','1-25','26-100','101-500','>500','>500')
+# df.tot$interferes.with.work = factor(df.tot$interferes.with.work,
+#                                      levels = c('never','rarely','sometimes','often'), ordered = TRUE)
 
-df.tot = df.tot %>% 
-  replace_na(list(age = median(df.tot$age, na.rm=TRUE)))
+### reserved for filtering yes/no questions into only yes/no as.factor() ###
 
-# TO DO LIST:
 
-# filter gender into 5 categories
-# group countries as continents? downsample to US/UK?
-# filter sought.treatment, interferes.with, employer.tech, employer.provide, know.options
-# # from 0/1, yes/no, true/false into only yes/no as.factor
-# group number of employees and order as.factor
+```
+
+```{r}
+# df.tot = backup
+```
+
+### Filters
+```{r}
+# df.tot %>% 
+#   select(country) %>% 
+#   group_by(country) %>% 
+#   summarise(count = n()) %>% 
+#   arrange(desc(count))
+
+country.stat = df.tot %>% 
+  select(country, sought.treatment) %>% 
+  filter(country=="united states of america") %>% 
+  filter(!is.na(sought.treatment)) %>% 
+  summarise(percent.yes = sum(sought.treatment=="yes")/n())
+
+global.stat =  df.tot %>% 
+  select(sought.treatment) %>% 
+  filter(!is.na(sought.treatment)) %>% 
+  summarise(percent.yes = sum(sought.treatment=="yes")/n())
+
+region = c("Global Survey", "United States")
+percent.yes = c(global.stat, country.stat)
+ggplot(data.frame(region,percent.yes)) + geom_col(aes(region, percent.yes, fill=region))
 ```
 
 
 # DATA VISUALIZATION
 
-## EDA Bar Charts
+### Post-Cleaning EDA Bar Charts
 ```{r}
-for (i in 1:length(verified.qs)){
-  q = verified.qs[[i]]
+headers = names(df.tot)
+for (i in 1:length(headers)){
+  q = headers[[i]]
   barplot(table(df.tot[q]), main = q)
 }
 ```
+
+### ggplot examples
+```{r}
+g = ggplot(df.tot)
+g + geom_bar(aes(interferes.with.work, fill=tech.company), position="dodge")
+g = df.tot %>% 
+  filter(!is.na(interferes.with.work)) %>% 
+  ggplot()
+g + geom_bar(aes(tech.company, fill=interferes.with.work), position="fill")
+df.tot$tech
+```
+
+# GRAPHS FOR PRESENTATION
+```{r}
+country.stat = df.tot %>% 
+  select(country, interferes.with.work) %>% 
+  filter(country=="india") %>% 
+  filter(!is.na(interferes.with.work)) %>% 
+  summarise(percent.yes = sum(interferes.with.work=="yes")/n())
+
+global.stat = df.tot %>% 
+  filter(!is.na(interferes.with.work)) %>% 
+  summarise(percent.yes = sum(interferes.with.work=="yes")/n())
+
+region = c("Global Survey", "India")
+percent.yes = c(global.stat, country.stat)
+ggplot(data.frame(region,percent.yes)) + geom_col(aes(region, percent.yes, fill=region)) +
+  ggtitle("If you have a mental health condition,\n do you feel that it interferes with your work?") +
+  ylab("Percent answered Yes") + xlab("")
+```
+
+```{r}
+ggplot(filter(df.tot, !is.na(comfortable.discussing))) + geom_bar(aes(comfortable.discussing, fill=gender), position="fill") + ggtitle("Are you comfortable discussing mental health issues with a coworker?") + ylab("Percent of Respondents") + xlab("")
+```
+
+```{r}
+year = c(2014:2017)
+rate = c(13,13.3,13.4,14)
+suicides = data.frame(year, rate)
+
+x = df.tot %>% 
+  filter(country=="united states of america") %>% 
+  select(year, employer.provide.benefits) %>% 
+  filter(!is.na(employer.provide.benefits)) %>% 
+  group_by(year) %>% 
+  summarise(percent.yes = sum((employer.provide.benefits=="yes")/n()))
+x$year = as.numeric(as.character(x$year))
+y = full_join(x,suicides)
+ggplot(y) + geom_line(aes(x=year,y=percent.yes*20, group=1, color="Health Plan Coverage")) + geom_line(aes(x=year, y=rate, group=1, color="Natl. Suicide Rate")) + scale_y_continuous(name="Suicide Rate", sec.axis = sec_axis(~./20, name="Percent Covered")) + ggtitle("Mental Health Covered by Employer-Sponsored Health Insurance") + labs(color="Legend")
+
+```
+
 
 # OUTPUT FILES
 ```{r}

@@ -1,6 +1,7 @@
 *.ipynb_checkpoints
 *.csv
-*.png
-*.jpg
 *.Rhistory
 *.nb.html
+*.css
+*.js
+*.map
