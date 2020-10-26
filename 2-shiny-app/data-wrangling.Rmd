@@ -109,7 +109,7 @@ verify("disc.*a.mental.health.*.with.your.coworkers.")
 
 ## Data Loading
 
-### Helpful Function to Find Variables Indixces
+### Helper Function to Find Variables Indixces
 ```{r}
 keyword.locs = function(keyword, df) {
   qs = names(df)

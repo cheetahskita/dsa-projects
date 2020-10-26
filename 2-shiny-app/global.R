@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(tidyverse)
 
-setwd('C:/Users/moth1/OneDrive/Documents/dsa-projects/2-shiny-app')
+# setwd('C:/Users/moth1/OneDrive/Documents/dsa-projects/2-shiny-app')
 df.tot = read_csv("server.csv",
                   col_types = cols(year = col_factor()))
 

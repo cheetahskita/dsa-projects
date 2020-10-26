@@ -1,0 +1,10 @@
+name: 2-shiny-app
+title:
+username:
+account: cheetahskita
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2658433
+bundleId: 3499112
+url: https://cheetahskita.shinyapps.io/2-shiny-app/
+when: 1597097255.02391
